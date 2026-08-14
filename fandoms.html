@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="mainstyle.css"
     </head>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <body>
         <div class="pagediv">
             <!--TITLEBAR -->
@@ -495,8 +496,8 @@
                 <div style="display: flex; justify-content: space-between;">
                     <!--GAME SELECTOR -->
                     <div style="margin-top: 10px; width: 420px;">
-                        <div class="boxnb" data-game="slime-rancher">
-                            <p class="gameselect">Slime Rancher</p>
+                        <div class="boxnb active" data-game="slime-rancher">
+                            <p class="gameselect active">Slime Rancher</p>
                         </div>
                         <div class="boxnb" data-game="slime-rancher-2">
                             <p class="gameselect">Slime Rancher 2</p>
@@ -526,7 +527,7 @@
                     <!-- GAME BOXES -->
                     <div class="box" style="width: 100%; display: flex; align-items: center;">
                         <!-- SLIME RANCHER 1 -->
-                        <div id="gamebox-slime-rancher" class="gamebox">
+                        <div id="gamebox-slime-rancher" class="gamebox active">
                             <!-- COLUMN1 -->
                             <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
                                 <img class="gameimg" src="fandoms/games/SR1icon.png">
@@ -675,7 +676,7 @@
                                             <div class="char">
                                                 <h1 class="char" data-i18n="fandomgamefavblock"></h1>
                                                 <hr class="char">
-                                                <img class="char" src="placeholder.png">
+                                                <model-viewer class="char" auto-rotate rotations-per-second="720deg" src="fandoms/games/Amethyst.glb"></model-viewer>
                                                 <hr class="char">
                                                 <h1 class="char" data-i18n="fandomamethyst"></h1>
                                                 <hr class="char">

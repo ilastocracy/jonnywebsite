@@ -97,6 +97,7 @@ hr.char {width: 230px;}
 span.char {font-size: 25px;}
 p.char {font-size: 25px;}
 p.charcomm {font-size: 20px; margin-top: 3px; margin-bottom: 3px; text-align: center;}
+model-viewer.char {width: 250px; height: 250px;}
 /* GAME */
 div.boxnb {border: 10px solid transparent; background-color: rgba(0, 0, 0, 0.7); border-image: url(metalborder.png) 25 round; padding-bottom: 5px;}
 div.boxnb:hover p.gameselect {cursor: pointer; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
