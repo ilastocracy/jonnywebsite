@@ -1,0 +1,122 @@
+@font-face { font-family: Gothic; src:url(Mirage\ final.ttf); font-style: normal;}
+@font-face { font-family: smallGothic; src:url(MorrisRomanBlack.ttf); font-style: normal;}
+body {
+    display: flex;
+    justify-content: center;
+    background: url(CHAIN.png),url(background1.png);
+    background-repeat: repeat-x, no-repeat;
+    background-size: 1000px ,cover;
+    background-attachment: fixed;
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+/* PAGE */
+section.page {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+h1.pageheader {font-size: 50px; text-align: center;margin-top: 20px; margin-bottom: 5px;}
+div.pagediv {width: 85%; margin-top: 45px; max-width: 1700px;}
+* { color: white; font-family: Gothic; scrollbar-color: #e543fa transparent;}
+h1 {text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+/* COLUMN */
+h1.sectitle { margin: 0; margin-top: 5px; font-family: Gothic; text-align: center;}
+div.column {}
+div.box {border: 10px solid transparent; background-color: rgba(0, 0, 0, 0.7); border-image: url(metalborder.png) 25 round; margin-right: 0; margin-top: 10px; }
+div.bigbox {border: 10px solid transparent;border-image: url(metalborder.png) 25 round;background: linear-gradient(to bottom, rgba(59, 6, 64, 0.7), rgba(198, 47, 212, 0.7));padding: 10px;margin-top: 20px;}
+/* TITLE */
+div.siteheadersmall {border: solid 10px transparent; border-image: url(metalborder.png) 25 round; text-align: center; padding: 35px; margin: 0; margin-bottom: 15px; font-size: 40px ; height: 140px;}
+div.siteheaderbig {border: solid 10px transparent; border-image: url(metalborder.png) 25 round; text-align: center; padding: 35px; margin: 0; font-size: 40px ; height: 140px; max-width: 1700px;}
+/* NAV */
+a.nav { text-decoration: none; color: inherit;}
+h1.nav {text-align: center; margin: 0; margin-bottom: 10px; margin-top: 15px;font-size: 50px; font-family: Gothic;}
+div.nav { border: solid 10px transparent; border-image: url(metalborder.png) 25 round; background-color: #c478b1; margin: 0; margin-top: 20px;}
+div.navel { display: flex; margin-bottom: 10px;}
+img.nav {width: 30px; height: 40px; margin-top: -8px; margin-left: 5px;}
+#nav0 { background: linear-gradient(to bottom, rgba(59, 6, 64, 0.7), rgba(92, 7, 99, 0.7)); }
+#nav1 { background: linear-gradient(to bottom, rgba(92, 7, 99, 0.7), rgba(138, 0, 150, 0.7)); }
+#nav2 { background: linear-gradient(to bottom, rgba(138, 0, 150, 0.7), rgba(148, 0, 161, 0.7)); }
+#nav3 { background: linear-gradient(to bottom, rgba(148, 0, 161, 0.7), rgba(198, 47, 212, 0.7)); }
+p.nav { font-family: Gothic ;margin: 0; margin-bottom: 10px; margin-left: 10px;font-size: 28px;}
+p.nav:hover { text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa; ;}
+/* LANGBUTTON */
+*.lang {cursor: pointer;}
+*.langbox {cursor: pointer;}
+div.lang {display: flex; justify-content: space-between; border: solid 10px transparent; border-image: url(metalborder.png) 25 round; cursor: pointer;}
+div.langbox {display: flex; justify-content: space-around; margin-top: 0; margin-bottom: 20px;}
+button.lang {text-decoration: none; color: inherit; display: flex; border: none; background-color: transparent;}
+p.lang {font-size: 25px; margin-top: 0; margin-bottom: 0;}
+/* MARQUEE */
+marquee {border: solid 10px transparent; border-image: url(metalborder.png) 25 round;margin: 5px; font-size: 25px; padding-top: 7px; background: rgba(0, 0, 0, 0.7);}
+/* PARAGRAPH */
+h1.bigheader { font-size: 45px;font-family: Gothic; margin-top: 10px; margin-bottom: 0;}
+.medheader {font-size: 40px; font-family: Gothic; margin-top: 10px; margin-bottom: 5px; margin-left: 10px; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+div.paragraph {display: flex;}
+p.paragraph {font-size: 30px; margin-top: 2px; margin-bottom: 5px; margin-left: 10px; margin-right: 10px;}
+li {font-size: 30px; margin-bottom: 10px; margin-right: 10px;}
+hr { margin-left: 15px; margin-right: 15px;}
+/* UPDATE */
+div.upd {height: 240px ;overflow: scroll;}
+span.updd {font-size: 25px; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+span.updp {font-size: 25px}
+/* MP3 PLAYER */
+div.mp3 {display: flex; flex-direction: column; align-items: center;}
+div.mp3time {display: flex; justify-content: space-between; width: 250px;}
+img.mp3 {width: 250px; height: 250px; object-fit: cover;}
+input.mp3 {width: 90%;}
+p.mp3time {font-size: 25px;}
+h1.mp3 {margin-bottom: 0; margin-top: 0;}
+div.mp3controls {display: flex; align-items: center; justify-content: center; gap: 15px;}
+button.mp3 {cursor: pointer;border: none; background: none; margin: 0;font-size: 60px;text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+button.mp3tiny {cursor: pointer;border: none; background: none; margin: 0;font-size: 30px;text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+/* ARTPOST */
+*.artpost { color: white;}
+div.artpost {
+ display: flex;
+ justify-content: space-between}
+h1.artpost {font-size: 45px;font-family: Gothic; margin-top: 10px; margin-bottom: 0; text-align: center;}
+p.artpost { margin: 10px; font-size: 30px;}
+/* COLOR BOX */
+span.colorbox {display: inline-block;width: 20px; height: 20px; border: solid 3px black; vertical-align: -3px; margin-right: 10px;}
+/* MODALS */
+img.modalbuttonsmall {cursor: pointer;width: 30px; height: 30px; vertical-align: -7px; margin-right: 10px; display: inline-block;}
+div.modalbg {display: none; justify-content: center ;position: fixed; left: 0; top: 0; z-index: 1000; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);}
+img.modal {border: solid 15px transparent; border-image: url(metalborder.png) 25 round;}
+/* CHARBOX */
+div.charcontent {display: none;}
+section.char {display: flex; justify-content: space-evenly;gap: 40px; overflow-x: scroll; padding: 20px;}
+div.char {background: black; border: solid 10px transparent; border-image: url(metalborder.png) 25 round; width: 250px; height: 450px; display: flex; flex-direction: column; justify-content: flex-start;align-items: center; padding-bottom: 10px;}
+img.char {width: 250px; height: 250px; object-fit: cover; justify-self: flex-start; margin: 0;}
+h1.char {margin-top: 10px; margin-bottom: 0; text-align: center;}
+hr.char {width: 230px;}
+span.char {font-size: 25px;}
+p.char {font-size: 25px;}
+p.charcomm {font-size: 20px; margin-top: 3px; margin-bottom: 3px; text-align: center;}
+/* GAME */
+div.boxnb {border: 10px solid transparent; background-color: rgba(0, 0, 0, 0.7); border-image: url(metalborder.png) 25 round; padding-bottom: 5px;}
+div.boxnb:hover p.gameselect {cursor: pointer; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+div.boxnb.active {background-color: transparent;}
+div.gamebox {display: none; width: 100%;}
+div.gamebox.active {display: flex;}
+div.vr {border-left: 3px solid white; margin-right: 6px; align-self: stretch;}
+p.gameselect {font-size: 28px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;}
+p.gameselect.active {text-shadow: 0 0 10px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;;}
+hr.game { width: 100%; margin-left: 0; margin-right: 0; margin-bottom: 20px;}
+img.gameimg {width: 267px;border: solid 10px transparent; border-image: url(metalborder.png) 25 round;}
+div.gameimg {display: flex; justify-content: space-between;}
+img.gameimgtiny {height: 110px ;border: solid 10px transparent; border-image: url(metalborder.png) 25 round; cursor: pointer;}
+p.gamedesc {font-size: 20px; text-align: center; margin-top: 10px;}
+h1.gameheader {font-size: 50px; text-align: center; margin: 10px; margin-bottom: 5px;}
+h1.medgameheader {font-size: 40px; margin: 5px; margin-left: 0;text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+span.medgameheader {font-size: 40px; margin: 5px; margin-left: 0;text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+span.medgameheaderwhite {font-size: 40px; margin: 5px; margin-left: 0;text-shadow: 0 0 7px white,;}
+span.gamecomment {font-size: 30px; margin-left: 0;}
+div.gamefav {display: flex; justify-content: flex-start; gap: 10px; margin-top: 7px;}
+img.gamefav {width: 250px; margin-left: 0; border: 10px solid transparent; border-image: url(metalborder.png) 25 round;}
+span.gamefavcommheader {font-size: 25px; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+span.gamefavcomm {font-size: 25px}

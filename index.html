@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title data-i18n="hometab"></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mainstyle.css">
+    </head>
+    <body>
+        <div class="pagediv">
+        <section>
+        <!--FIRST COLUMN -->
+        <div class="column" style="width: 300px; margin-top: -30px; min-width: 300px;">
+            <!--IMAGEABOVE -->
+            <div style="display: flex; justify-content: center;">
+               <img src="Illustration3b.png" style="width: 200px; height: 200px; vertical-align: bottom;">
+            </div>
+            <!--GLOW SCRIPT -->
+            <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelectorAll("a.nav").forEach(link => {
+                    const img = link.querySelector("img.nav");
+
+                    link.addEventListener("mouseenter", () => {
+                        img.src = "diamondglow.png";
+                    });
+
+                    link.addEventListener("mouseleave", () => {
+                        img.src = "diamond.png";
+                    });
+                });
+            });
+            </script>
+            <!--ME -->
+            <div class="nav" id="nav1" style="margin-top: 0;">
+                <h1 class="nav" data-i18n="navme"></h1>
+
+                <a class="nav" href="aboutme.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navaboutme"></p>
+                    </div>
+                </a>
+
+                <a class="nav" href="fandoms.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navfandoms"></p>
+                    </div>
+                </a>
+
+                <a class="nav" href="tech.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navtech"></p>
+                    </div>
+                </a>
+
+                <a class="nav" href="wishlist.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navwishlist"></p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- ART -->
+            <div class="nav" id="nav2">
+                <h1 class="nav" data-i18n="navart"></h1>
+
+                <a class="nav" href="portfolio.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navportfolio"></p>
+                    </div>
+                </a>
+
+                <a class="nav" href="ocs.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navocs"></p>
+                    </div>
+                </a>
+
+                 <a class="nav" href="artposts.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navartposts"></p>
+                    </div>
+                </a>
+
+                <a class="nav" href="commissioninfo.html">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav" data-i18n="navcommissioninfo"></p>
+                    </div>
+                </a>
+
+                <a class="nav" target="_blank">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav">Patreon</p>
+                    </div>
+                </a>
+            </div>
+            <!-- SOCIAL -->
+            <div class="nav" id="nav3">
+                <h1 class="nav">Social</h1>
+
+                <a class="nav" href="https://www.instagram.com/jonny_inkdom" target="_blank">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav">Instagram</p>
+                    </div>
+                </a>
+
+                <a class="nav" target="_blank" href="https://www.twitch.tv/jonny_inkdom">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav">Twitch</p>
+                    </div>
+                </a>
+
+                <a class="nav" target="_blank" href="https://www.patreon.com/c/jonny_inkdom">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav">Patreon</p>
+                    </div>
+                </a>
+
+                <a class="nav" target="_blank" href="https://x.com/jonny_inkdom">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav">X/Twitter</p>
+                    </div>
+                </a>
+
+                <a class="nav" target="_blank">
+                    <div class="navel">
+                        <img class="nav" src="diamond.png">
+                        <p class="nav">Youtube</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--SECOND COLUMN -->
+        <div class="column" style="width: 1150px; margin-left: 20px; margin-right: 20px;">
+            <!--PAGETITLE -->
+            <div class="siteheadersmall"></div>
+            <!--MARQUEE -->
+            <marquee data-i18n="marqueecommissions"></marquee>
+            <!--WELCOME -->
+            <div class="box">
+                <h1 class="bigheader" data-i18n="welcome"></h1>
+                <div class="paragraph">
+                    <img src="placeholderbig.png" style="height: 400px; width: 300px;">
+                    <p class="paragraph" data-i18n="welcomep"></p>
+                </div>
+            </div>
+            <!--BOTTOMIMAGE -->
+            <img src="ENDLESSCHAIN.png" style="max-width: 1150px;">
+            <!--ARTPOST -->
+             <div class="box" style="margin-right: 10px; margin-top: -20px;">
+                <div class="artpost">
+                    <img src="placeholderbig.png" style="width: 350px;">
+                    <div>
+                        <h1 class="artpost" data-i18n="lastpost"></h1>
+                        <p class="artpost" data-i18n="lastpostp"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--THIRD COLUMN -->
+        <div class="column" style="min-width: 300px;width: 300px; margin-top: 80px;">
+            <!-- LANGBUTTON -->
+            <div class="langbox">
+                <div class="lang">
+                    <button class="lang" onclick="setLanguage('it')">
+                        <img src="images/IT.png" style="height: 50px;">
+                    </button>
+                </div>
+                <div class="lang">
+                    <button class="lang" onclick="setLanguage('en')">
+                        <img src="images/UK.png" style="height: 50px;">
+                    </button>
+                </div>
+            </div>
+            <!--UPDATE -->
+            <div class="box" style="margin-bottom: 20px;">
+            <h1 class="sectitle" data-i18n="updatetitle"></h1>
+            <hr>
+            <div class="upd">
+                <span class="updd" data-i18n="date5"></span> <span class="updp" data-i18n="upd5"></span>
+                <hr>
+                <span class="updd" data-i18n="date4"></span> <span class="updp" data-i18n="upd4"></span>
+                <hr>
+                <span class="updd" data-i18n="date3"></span> <span class="updp" data-i18n="upd3"></span>
+                <hr>
+                <span class="updd" data-i18n="date2"></span> <span class="updp" data-i18n="upd2"></span>
+                <hr>
+                <span class="updd" data-i18n="date1"></span> <span class="updp" data-i18n="upd1"></span>
+            </div>
+            </div>
+            <!-- MP3 PLAYER -->
+            <div class="box" style="margin-bottom: 20px;">
+                <h1 class="sectitle" data-i18n="mp3player" style="margin-top: 10px;"></h1>
+                <hr>
+                <div class="mp3">
+                    <img class="mp3" id="thumbnail" src="songthumbnails/2.png">
+                    <hr width="90%">
+                    <input class="mp3" type="range" id="progress" min="0" max="100" value="0">
+                    <h1 class="mp3" id="songTitle">2hollis - god</h1>
+                    <div class="mp3controls">
+                        <button id="previousButton" class="mp3tiny">◀</button>
+                        <button id="playButton" class="mp3">▶</button>
+                        <button id="nextButton" class="mp3tiny">▶</button>
+                    </div>
+                    <audio id="audio"></audio>
+                </div>
+            </div>
+            <!--COMMENTS -->
+            <div class="box">
+                <h1 class="sectitle" data-i18n="commentstitle"></h1>
+            </div>
+        </div>
+        </section>
+        <section>
+        <marquee style="width: 1740px;">DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO DARK SOULS 3 SESSO </marquee>
+        </section>
+        <section>
+            <p data-i18n="credits"></p>
+        </section>
+        </div>
+    </body>
+    <!--SCRIPTS -->
+    <!--LANG SCRIPT -->
+    <script src="js/language.js"></script>
+    <!--MP3 SCRIPT -->
+    <script src="js/mp3player.js"></script>
+    <!--COMMENT SCRIPT -->
+    <script async src="https://cusdis.com/js/cusdis.es.js"></script>
+</html>
