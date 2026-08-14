@@ -3,7 +3,7 @@
 body {
     display: flex;
     justify-content: center;
-    background: url(CHAIN.png),url(background1.png);
+    background: url(CHAIN.png),url(background1.jpg);
     background-repeat: repeat-x, no-repeat;
     background-size: 1000px ,cover;
     background-attachment: fixed;
