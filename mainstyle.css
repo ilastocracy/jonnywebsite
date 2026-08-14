@@ -7,7 +7,21 @@ body {
     background-repeat: repeat-x, no-repeat;
     background-size: 1000px ,cover;
     background-attachment: fixed;
+    zoom: 0.9;
 }
+
+@media (max-width: 1700px) {
+    body {
+        zoom: 0.7;
+    }
+}
+
+@media (max-width: 1400px) {
+    body {
+        zoom: 0.65;
+    }
+}
+
 section {
     display: flex;
     justify-content: center;
