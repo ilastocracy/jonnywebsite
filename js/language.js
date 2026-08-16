@@ -165,6 +165,9 @@ const translations = {
     techsoftspud: "Virtual Arm/Tablet: Spud Arm/Spud Tablet",
     //SETUP PHOTO
     techphoto: "Setup Photo",
+    /////////////////////////////////////////////////////////
+    //// COMMISSION INFO
+    tabcommissioninfo: "Commission Info",
 
     },
 
@@ -338,6 +341,9 @@ const translations = {
     techsoftspud: "Braccio/Tablet Virtuale: Spud Arm/Spud Tablet",
     //SETUP PHOTO
     techphoto: "Foto del Setup",
+    /////////////////////////////////////////////////////////
+    //// COMMISSION INFO
+    tabcommissioninfo: "Info Commissioni",
     }
 };
 

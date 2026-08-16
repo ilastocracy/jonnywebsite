@@ -93,6 +93,7 @@ button.mp3tiny {cursor: pointer;border: none; background: none; margin: 0;font-s
 div.artpost {
  display: flex;
  justify-content: space-between}
+div.artpostp {width: 100%;}
 h1.artpost {font-size: 45px;font-family: Gothic; margin-top: 10px; margin-bottom: 0; text-align: center;}
 p.artpost { margin: 10px; font-size: 30px;}
 /* COLOR BOX */
