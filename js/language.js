@@ -39,6 +39,8 @@ const translations = {
     upd4: "You can now scroll down the update tab to see older updates!",
     date5: "09/08/2026",
     upd5: "Added a favicon!",
+    date6: "16/08/2026",
+    upd6: "Added the Commission Info page!",
     //MP3 PLAYER
     mp3player: "MP3 Player",
     //COMMENTS
@@ -211,6 +213,8 @@ const translations = {
     upd4: "Ora puoi scorrere nella tabella per vedere i vecchi aggiornamenti!",
     date5: "09/08/2026",
     upd5: "Aggiunta la Favicon del sito!",
+    date6: "16/08/2026",
+    upd6: "Aggiunte Info Commissioni! >w<",
     //MP3
     mp3player: "Lettore MP3",
     //COMMENTS

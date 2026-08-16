@@ -136,3 +136,8 @@ div.gamefav {display: flex; justify-content: flex-start; gap: 10px; margin-top: 
 img.gamefav {width: 250px; margin-left: 0; border: 10px solid transparent; border-image: url(metalborder.png) 10 round;}
 span.gamefavcommheader {font-size: 25px; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
 span.gamefavcomm {font-size: 25px}
+/* TABLES */
+div.table {border: solid 10px transparent; border-image: url(metalborder.png) 10 round;}
+th, td {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; width: 200px; margin: 0; height: 50px;}
+th {font-size: 35px; text-align: center; width: 20%;}
+td {font-size: 30px; text-align: center;}
