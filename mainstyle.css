@@ -96,12 +96,14 @@ div.artpost {
 div.artpostp {width: 100%;}
 h1.artpost {font-size: 45px;font-family: Gothic; margin-top: 10px; margin-bottom: 0; text-align: center;}
 p.artpost { margin: 10px; font-size: 30px;}
-img.artpostimg {height: 400px; cursor: pointer; border-right: 10px solid transparent; border-image: url(metalborder.png) 10 round;}
+img.artpostimg {height: 350px; cursor: pointer; border-right: 10px solid transparent; border-image: url(metalborder.png) 10 round;}
 h1.artpostbig {font-size: 50px; margin-top: 20px;text-align: center; margin-bottom: 0px;}
 p.artpostbig {font-size: 40px; margin-left: 20px; margin-right: 20px; margin-top: 5px;}
 img.artpostimg.small {height: 250px;}
 h1.artpost.small {font-size: 40px;}
 p.artpost.small {font-size: 25px;}
+section.artpost {display: flex; justify-content: space-around; gap: 20px;}
+div.box.artpostsmall {display: flex; width: 45%; margin-bottom: 20px;}
 /* COLOR BOX */
 span.colorbox {display: inline-block;width: 20px; height: 20px; border: solid 3px black; vertical-align: -3px; margin-right: 10px;}
 /* MODALS */
