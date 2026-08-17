@@ -220,7 +220,7 @@
                                 <h1 class="char">Rarity</h1>
                                 <hr class="char">
                                 <div>
-                                    <span class="char" data-i18n="fandomrating"></span><span class="char">99/10</span>
+                                    <span class="char" data-i18n="fandomrating"></span><span class="char">11/10</span>
                                 </div>
                                 <hr class="char">
                                 <p class="charcomm" data-i18n="mlpraritycomm"></p>
@@ -231,7 +231,7 @@
                                 <h1 class="char">Applejack</h1>
                                 <hr class="char">
                                 <div>
-                                    <span class="char" data-i18n="fandomrating"></span><span class="char">99/10</span>
+                                    <span class="char" data-i18n="fandomrating"></span><span class="char">9/10</span>
                                 </div>
                                 <hr class="char">
                                 <p class="charcomm" data-i18n="mlpapplejackcomm"></p>
@@ -290,7 +290,9 @@
                                     <span class="char" data-i18n="fandomrating"></span><span class="char">2/10</span>
                                 </div>
                                 <hr class="char">
-                                <p class="charcomm" data-i18n="hkcinnamoncomm"></p>
+                                <div style="overflow-y: scroll;">
+                                    <p class="charcomm" data-i18n="hkcinnamoncomm"></p><p class="charcomm bold" data-i18n="hkcinnamoncommbold"></p><p class="charcomm" data-i18n="hkcinnamoncomm2"></p>
+                                </div>
                             </div>
                             <!-- KEROPPI -->
                             <div class="char">
@@ -324,6 +326,7 @@
                                 </div>
                                 <hr class="char">
                                 <p class="charcomm" data-i18n="hkpochaccocomm"></p>
+                                <p class="charcomm" data-i18n="hkpochaccocomm2"></p>
                             </div>
                             <!-- MY MELODY -->
                             <div class="char">
@@ -331,7 +334,7 @@
                                 <h1 class="char">My Melody</h1>
                                 <hr class="char">
                                 <div>
-                                    <span class="char" data-i18n="fandomrating"></span><span class="char">6/10</span>
+                                    <span class="char" data-i18n="fandomrating"></span><span class="char">5/10</span>
                                 </div>
                                 <hr class="char">
                                 <p class="charcomm" data-i18n="hkmelodycomm"></p>
@@ -496,17 +499,17 @@
                 <div style="display: flex; justify-content: space-between;">
                     <!--GAME SELECTOR -->
                     <div style="margin-top: 10px; width: 420px;">
-                        <div class="boxnb active" data-game="slime-rancher">
-                            <p class="gameselect active">Slime Rancher</p>
+                        <div class="boxnb active" data-game="minecraft">
+                            <p class="gameselect">Minecraft</p>
+                        </div>
+                        <div class="boxnb" data-game="slime-rancher">
+                            <p class="gameselect">Slime Rancher</p>
                         </div>
                         <div class="boxnb" data-game="slime-rancher-2">
                             <p class="gameselect">Slime Rancher 2</p>
                         </div>
                         <div class="boxnb" data-game="stardew-valley">
                             <p class="gameselect">Stardew Valley</p>
-                        </div>
-                        <div class="boxnb" data-game="minecraft">
-                            <p class="gameselect">Minecraft</p>
                         </div>
                         <div class="boxnb" data-game="sims-4">
                             <p class="gameselect">The Sims 4</p>
@@ -527,7 +530,7 @@
                     <!-- GAME BOXES -->
                     <div class="box" style="width: 100%; display: flex; align-items: center;">
                         <!-- SLIME RANCHER 1 -->
-                        <div id="gamebox-slime-rancher" class="gamebox active">
+                        <div id="gamebox-slime-rancher" class="gamebox">
                             <!-- COLUMN1 -->
                             <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
                                 <img class="gameimg" src="fandoms/games/SR1icon.png">
@@ -556,7 +559,7 @@
                                     <div class="gamefav">
                                         <img class="gamefav" src="placeholderbig.png">
                                         <div style="margin-top: 5px; width: 100%;">
-                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm" data-i18n="fandomcrystalslimecomm"></span>
+                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm">Crystal Slime</span>
                                         </div>
                                     </div>
                                 </div>
@@ -641,7 +644,7 @@
 
 
                         <!-- MINECRAFT -->
-                        <div id="gamebox-minecraft" class="gamebox">
+                        <div id="gamebox-minecraft" class="gamebox active">
                             <!-- COLUMN1 -->
                             <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
                                 <img class="gameimg" src="fandoms/games/minecraftlogo.png">
