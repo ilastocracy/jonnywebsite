@@ -170,7 +170,11 @@ const translations = {
     /////////////////////////////////////////////////////////
     //// COMMISSION INFO
     tabcommissioninfo: "Commission Info",
-
+    /////////////////////////////////////////////////////////
+    //// ART Posts
+    // TITLES
+    latestpost: "Post Piú Recente",
+    allposts: "Tutti i Post",
     },
 
   it: {
@@ -348,7 +352,12 @@ const translations = {
     /////////////////////////////////////////////////////////
     //// COMMISSION INFO
     tabcommissioninfo: "Info Commissioni",
-    }
+    /////////////////////////////////////////////////////////
+    //// ART Posts
+    // TITLES
+    latestpost: "Post Piú Recente",
+    allposts: "Tutti i Post",
+  }
 };
 
 

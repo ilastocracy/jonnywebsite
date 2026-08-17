@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Art Posts</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mainstyle.css">
+    </head>
+    <body>
+        <div class="pagediv">
+            <!-- SITE HEADER -->
+            <div class="siteheaderbig"></div>
+            <!-- MAIN SECTION -->
+            <section>
+                <!--NAVBAR -->
+                <!--GLOW SCRIPT -->
+                <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    document.querySelectorAll("a.nav").forEach(link => {
+                        const img = link.querySelector("img.nav");
+
+                        link.addEventListener("mouseenter", () => {
+                            img.src = "diamondglow.png";
+                        });
+
+                        link.addEventListener("mouseleave", () => {
+                            img.src = "diamond.png";
+                        });
+                    });
+                });
+                </script>
+            <div class="column" style="width: 300px; flex-shrink: 0; min-width: 300px;">
+                <!--HOME BUTTON -->
+                <a class="nav" href="index.html">
+                    <div class="nav" id="nav0">
+                            <h1 class="nav">Home</h1>
+                    </div>
+                </a>
+                <!--ME -->
+                <div class="nav" id="nav1">
+                    <h1 class="nav" data-i18n="navme"></h1>
+
+                    <a class="nav" href="aboutme.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navaboutme"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="fandoms.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navfandoms"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="tech.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navtech"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="wishlist.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navwishlist"></p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ART -->
+                <div class="nav" id="nav2">
+                    <h1 class="nav" data-i18n="navart"></h1>
+
+                    <a class="nav" href="portfolio.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navportfolio"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="ocs.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navocs"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="artposts.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navartposts"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="commissioninfo.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navcommissioninfo"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Patreon</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- SOCIAL -->
+                <div class="nav" id="nav3">
+                    <h1 class="nav">Social</h1>
+
+                    <a class="nav" href="https://www.instagram.com/jonny_inkdom" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Instagram</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank" href="https://www.twitch.tv/jonny_inkdom">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Twitch</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank" href="https://www.patreon.com/c/jonny_inkdom">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Patreon</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank" href="https://x.com/jonny_inkdom">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">X/Twitter</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Youtube</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                <div class="column" style="width: 100%; margin-left: 20px;">
+                    <!-- LATEST POST -->
+                    <h1 class="bigheader" data-i18n="latestpost" style="font-size: 80px; margin-top: 30px;text-align: center;"></h1>
+                    <hr style="margin-bottom: 20px;">
+                    <div class="box" style="display: flex;">
+                        <img class="artpostimg" src="placeholderbig.png">
+                        <div class="column">
+                            <h1 class="artpostbig">Titolo - 17/08/2026</h1>
+                            <p class="artpostbig">Lorem ipsum dolor sit amen tu quoque jdhfjef njwnee rejjrejrejejjej eejejej jeje  je je ej ej</p>
+                        </div>
+                    </div>
+                    <!-- ALL POSTS -->
+                    <h1 class="bigheader" data-i18n="allposts" style="font-size: 80px; margin-top: 30px;text-align: center;"></h1>
+                    <hr>
+                    <!-- ROW 1 -->
+                    <section style="display: flex; justify-content: space-between; gap: 20px;">
+                        <!--COLUMN 1 -->
+                            <div class="box" style="display: flex; width: 45%;">
+                                <img class="artpostimg small" src="placeholderbig.png">
+                                <div class="column">
+                                    <h1 class="artpost small">Titolo - 17/08/2026</h1>
+                                    <p class="artpost small">Lorem ipsum dolor sit amen tu quoque jdhfjef njwnee rejjrejrejejjej eejejej jeje  je je ej ej</p>
+                                </div>
+                            </div>
+                        <!--COLUMN 2 -->
+                            <div class="box" style="display: flex; width: 45%;">
+                                <img class="artpostimg small" src="placeholderbig.png">
+                                <div class="column">
+                                    <h1 class="artpost small">Titolo - 17/08/2026</h1>
+                                    <p class="artpost small">Lorem ipsum dolor sit amen tu quoque jdhfjef njwnee rejjrejrejejjej eejejej jeje  je je ej ej</p>
+                                </div>
+                            </div>
+                    </section>
+                    <!-- ROW 1 -->
+                    <section style="display: flex; justify-content: space-between; gap: 20px;">
+                        <!--COLUMN 1 -->
+                            <div class="box" style="display: flex; width: 45%;">
+                                <img class="artpostimg small" src="placeholderbig.png">
+                                <div class="column">
+                                    <h1 class="artpost small">Titolo - 17/08/2026</h1>
+                                    <p class="artpost small">Lorem ipsum dolor sit amen tu quoque jdhfjef njwnee rejjrejrejejjej eejejej jeje  je je ej ej</p>
+                                </div>
+                            </div>
+                        <!--COLUMN 2 -->
+                            <div class="box" style="display: flex; width: 45%;">
+                                <img class="artpostimg small" src="placeholderbig.png">
+                                <div class="column">
+                                    <h1 class="artpost small">Titolo - 17/08/2026</h1>
+                                    <p class="artpost small">Lorem ipsum dolor sit amen tu quoque jdhfjef njwnee rejjrejrejejjej eejejej jeje  je je ej ej</p>
+                                </div>
+                            </div>
+                    </section>
+                    <!-- ROW 1 -->
+                    <section style="display: flex; justify-content: space-between; gap: 20px;">
+                        <!--COLUMN 1 -->
+                            <div class="box" style="display: flex; width: 45%;">
+                                <img class="artpostimg small" src="placeholderbig.png">
+                                <div class="column">
+                                    <h1 class="artpost small">Titolo - 17/08/2026</h1>
+                                    <p class="artpost small">Lorem ipsum dolor sit amen tu quoque jdhfjef njwnee rejjrejrejejjej eejejej jeje  je je ej ej</p>
+                                </div>
+                            </div>
+                </div>
+            </section>
+        </div>
+        <!-- MODALS -->
+        <div class="modalbg" id="modal">
+             <img class="modal" id="modalimage" src="placeholder.png">
+        </div>
+    </body>
+    <!-- SCRIPTS -->
+    <!--MODAL SCRIPT -->
+    <script>
+    // get vars
+    var modal = document.getElementById("modal");
+    var mdlbtn = document.querySelectorAll(".artpostimg")
+    var modalimage =document.getElementById("modalimage")
+    // open modal
+    mdlbtn.forEach(function(image) {
+    image.onclick = function(){
+      modal.style.display = "flex";
+      modalimage.src = this.src;
+    };
+    });
+    // close modal
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    <script src="js/language.js"></script>
+</html>
