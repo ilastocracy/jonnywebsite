@@ -153,4 +153,9 @@ div.commselect.active {border-bottom: none; background: linear-gradient(to botto
 h1.commselect {font-size: 50px; text-align: center; margin-bottom: 5px; margin-top: 15px; text-shadow: none;}
 h1.commselect.active {text-shadow: 0 0 10px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
 div.commbox {border: 10px solid transparent; border-top: none; border-image: url(metalborder.png) 10 round;background: linear-gradient(to bottom, rgba(138, 0, 150, 0.7), rgba(148, 0, 161, 0.7)); }
+img.commimg {height: 100%;}
+h1.comm {font-size: 45px;}
 ul.comm li, span.gamefavcommheader {font-size: 28px;}
+div.commexample {width: 90%; height: 100%; display: flex; flex-direction: column; justify-content: center;}
+section.commexample {height: 100%; justify-content: space-around; align-items: center;}
+img.commexample {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; height: 200px;}
