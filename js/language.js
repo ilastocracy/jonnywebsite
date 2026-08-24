@@ -179,6 +179,15 @@ const translations = {
     /////////////////////////////////////////////////////////
     //// COMMISSION INFO
     tabcommissioninfo: "Commission Info",
+    commhead: "(Head)",
+    commhalfbody: "(Half Body)",
+    commcowboy: "(Cowboy Shot)",
+    commfullbody: "(Full Body)",
+    extrachar: "Extra Characters:",
+    extrachartext: " +50% (per character)",
+    drawnbg: "Drawn Background:",
+    comicpage: "Comic Book Page:",
+    negotiable: " negotiable",
     /////////////////////////////////////////////////////////
     //// ART Posts
     // TITLES
@@ -365,11 +374,21 @@ const translations = {
     /////////////////////////////////////////////////////////
     //// COMMISSION INFO
     tabcommissioninfo: "Info Commissioni",
+    commhead: "(Testa)",
+    commhalfbody: "(Mezzo Busto)",
+    commcowboy: "(P. Americano)",
+    commfullbody: "(Intero)",
+    extrachar: "Personaggi Aggiuntivo:",
+    extrachartext: " +50% (per personaggio)",
+    drawnbg: "Sfondo disegnato:",
+    comicpage: "Pagina di Fumetto:",
+    negotiable: " trattabile",
     /////////////////////////////////////////////////////////
     //// ART Posts
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+
   }
 };
 

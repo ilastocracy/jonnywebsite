@@ -151,66 +151,240 @@
             <!-- MAIN COLUMN -->
             <div class="column" style="width: 100%; margin-left: 20px;">
                  <!-- TITLE -->
-                <div class="nav" id="nav0"  style="margin-bottom: 20px;"">
+                <div class="nav" id="nav0"  style="margin-bottom: 20px;">
                     <h1 class="nav" data-i18n="tabcommissioninfo"></h1>
                 </div>
                 <!-- PRICE SHEET BOX -->
                 <!-- SELECITON HEADER -->
                 <div style="display: flex; width: 100%;">
-                    <div class="commselect active">
+                    <div class="commselectbox active" data-pricesheet="sketch">
                         <h1 class="commselect active">Sketch</h1>
                     </div>
-                    <div class="commselect">
+                    <div class="commselectbox" data-pricesheet="lineart">
                         <h1 class="commselect">Line Art</h1>
                     </div>
-                    <div class="commselect">
+                    <div class="commselectbox" data-pricesheet="flatcolor">
                         <h1 class="commselect">Flat Color</h1>
                     </div>
-                    <div class="commselect">
+                    <div class="commselectbox" data-pricesheet="fullrender">
                         <h1 class="commselect">Full Render</h1>
                     </div>
                 </div>
                 <!-- PRICE SHEETS -->
-                <div class="commbox" style="height: 600px;">
+                <!-- SKETCH -->
+                <div class="commbox active" id="commbox-sketch" style="height: 600px;">
                     <section style="height: 100%;">
                         <!-- COLUMN1 -->
-                        <div class="column" style="width: 30%; display: flex;">
+                        <div class="column" style="width: 40%; display: flex;">
                             <img src="commissions/sketch.png" class="commimg">
                             <!-- PRICES -->
                             <div>
-                                <h1 class="comm" style="margin-top: 105px;">10€</h1>
-                                <h1 class="comm" style="margin-top: 45px;">15€</h1>
-                                <h1 class="comm" style="margin-top: 60px;">20€</h1>
-                                <h1 class="comm" style="margin-top: 170px;">25€</h1>
+                                <div style="margin-top: 105px;">
+                                    <span class="comm">€10</span> <span class="comm tiny" data-i18n="commhead"></span>
+                                </div>
+                                <div style="margin-top: 45px;">
+                                    <span class="comm">€15</span> <span class="comm tiny" data-i18n="commhalfbody"></span>
+                                </div>
+                                <div style="margin-top: 60px;">
+                                    <span class="comm">€20</span> <span class="comm tiny" data-i18n="commcowboy"></span>
+                                </div>
+                                <div style="margin-top: 170px;">
+                                    <span class="comm">€25</span> <span class="comm tiny" data-i18n="commfullbody"></span>
+                                </div>
                             </div>
                         </div>
                         <!-- COLUMN2 -->
-                        <div class="column" style="width: 70%; height: 100% ;display: flex; flex-direction: column; justify-content: space-around; align-items: center;">
+                        <div class="column" style="width: 60%; height: 100% ;display: flex; flex-direction: column; justify-content: space-around; align-items: center;">
                             <!-- INFO BOX -->
                             <div class="box" style="width: 90%;">
                                 <ul class="comm">
-                                    <li><span class="gamefavcommheader">Personaggio Aggiuntivo:</span> +50% (per personaggio)</li>
+                                    <li><span class="gamefavcommheader" data-i18n="extrachar"></span><span data-i18n="extrachartext"></span></li>
                                     <li><span class="gamefavcommheader">NSFW:</span> +20%</li>
-                                    <li><span class="gamefavcommheader">Sfondo disegnato:</span> trattabile</li>
-                                    <li><span class="gamefavcommheader">Pagina di fumetto:</span> trattabile</li>
+                                    <li><span class="gamefavcommheader" data-i18n="drawnbg"></span><span data-i18n="negotiable"></span></li>
+                                    <li><span class="gamefavcommheader" data-i18n="comicpage"></span><span data-i18n="negotiable"></span></li>
 
                                 </ul>
                             </div>
                             <div class="commexample">
                                 <section class="commexample">
-                                    <img src="placeholderbig.png" class="commexample">
-                                    <img src="placeholderbig.png" class="commexample">
-                                    <img src="placeholderbig.png" class="commexample">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
                                 </section>
                             </div>
                         </div>
                     </section>
                 </div>
+
+
+                <!-- LINE ART -->
+                <div class="commbox" id="commbox-lineart" style="height: 600px;">
+                    <section style="height: 100%;">
+                        <!-- COLUMN1 -->
+                        <div class="column" style="width: 40%; display: flex;">
+                            <img src="commissions/lineart.png" class="commimg">
+                            <!-- PRICES -->
+                            <div>
+                                <div style="margin-top: 105px;">
+                                    <span class="comm">€15</span> <span class="comm tiny" data-i18n="commhead"></span>
+                                </div>
+                                <div style="margin-top: 45px;">
+                                    <span class="comm">€25</span> <span class="comm tiny" data-i18n="commhalfbody"></span>
+                                </div>
+                                <div style="margin-top: 60px;">
+                                    <span class="comm">€35</span> <span class="comm tiny" data-i18n="commcowboy"></span>
+                                </div>
+                                <div style="margin-top: 170px;">
+                                    <span class="comm">€45</span> <span class="comm tiny" data-i18n="commfullbody"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMN2 -->
+                        <div class="column" style="width: 60%; height: 100% ;display: flex; flex-direction: column; justify-content: space-around; align-items: center;">
+                            <!-- INFO BOX -->
+                            <div class="box" style="width: 90%;">
+                                <ul class="comm">
+                                    <li><span class="gamefavcommheader" data-i18n="extrachar"></span><span data-i18n="extrachartext"></span></li>
+                                    <li><span class="gamefavcommheader">NSFW:</span> +20%</li>
+                                    <li><span class="gamefavcommheader" data-i18n="drawnbg"></span><span data-i18n="negotiable"></span></li>
+                                    <li><span class="gamefavcommheader" data-i18n="comicpage"></span><span data-i18n="negotiable"></span></li>
+
+                                </ul>
+                            </div>
+                            <div class="commexample">
+                                <section class="commexample">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                <!-- FLAT COLOR -->
+                <div class="commbox" id="commbox-flatcolor" style="height: 600px;">
+                    <section style="height: 100%;">
+                        <!-- COLUMN1 -->
+                        <div class="column" style="width: 40%; display: flex;">
+                            <img src="commissions/flatcolor.png" class="commimg">
+                            <!-- PRICES -->
+                            <div>
+                                <div style="margin-top: 105px;">
+                                    <span class="comm">€25</span> <span class="comm tiny" data-i18n="commhead"></span>
+                                </div>
+                                <div style="margin-top: 45px;">
+                                    <span class="comm">€35</span> <span class="comm tiny" data-i18n="commhalfbody"></span>
+                                </div>
+                                <div style="margin-top: 60px;">
+                                    <span class="comm">€50</span> <span class="comm tiny" data-i18n="commcowboy"></span>
+                                </div>
+                                <div style="margin-top: 170px;">
+                                    <span class="comm">€65</span> <span class="comm tiny" data-i18n="commfullbody"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMN2 -->
+                        <div class="column" style="width: 60%; height: 100% ;display: flex; flex-direction: column; justify-content: space-around; align-items: center;">
+                            <!-- INFO BOX -->
+                            <div class="box" style="width: 90%;">
+                                <ul class="comm">
+                                    <li><span class="gamefavcommheader" data-i18n="extrachar"></span><span data-i18n="extrachartext"></span></li>
+                                    <li><span class="gamefavcommheader">NSFW:</span> +20%</li>
+                                    <li><span class="gamefavcommheader" data-i18n="drawnbg"></span><span data-i18n="negotiable"></span></li>
+                                    <li><span class="gamefavcommheader" data-i18n="comicpage"></span><span data-i18n="negotiable"></span></li>
+
+                                </ul>
+                            </div>
+                            <div class="commexample">
+                                <section class="commexample">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                <!-- FULL RENDER -->
+                <div class="commbox" id="commbox-fullrender" style="height: 600px;">
+                    <section style="height: 100%;">
+                        <!-- COLUMN1 -->
+                        <div class="column" style="width: 40%; display: flex;">
+                            <img src="commissions/fullrender.png" class="commimg">
+                            <!-- PRICES -->
+                            <div>
+                                <div style="margin-top: 105px;">
+                                    <span class="comm">€35</span> <span class="comm tiny" data-i18n="commhead"></span>
+                                </div>
+                                <div style="margin-top: 45px;">
+                                    <span class="comm">€50</span> <span class="comm tiny" data-i18n="commhalfbody"></span>
+                                </div>
+                                <div style="margin-top: 60px;">
+                                    <span class="comm">€70</span> <span class="comm tiny" data-i18n="commcowboy"></span>
+                                </div>
+                                <div style="margin-top: 170px;">
+                                    <span class="comm">€90</span> <span class="comm tiny" data-i18n="commfullbody"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMN2 -->
+                        <div class="column" style="width: 60%; height: 100% ;display: flex; flex-direction: column; justify-content: space-around; align-items: center;">
+                            <!-- INFO BOX -->
+                            <div class="box" style="width: 90%;">
+                                <ul class="comm">
+                                    <li><span class="gamefavcommheader" data-i18n="extrachar"></span><span data-i18n="extrachartext"></span></li>
+                                    <li><span class="gamefavcommheader">NSFW:</span> +20%</li>
+                                    <li><span class="gamefavcommheader" data-i18n="drawnbg"></span><span data-i18n="negotiable"></span></li>
+                                    <li><span class="gamefavcommheader" data-i18n="comicpage"></span><span data-i18n="negotiable"></span></li>
+
+                                </ul>
+                            </div>
+                            <div class="commexample">
+                                <section class="commexample">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                    <img src="placeholderbig.png" class="commexampleimg">
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
                 <img src="ENDLESSCHAIN.png" width="100%">
             </div>
         </section>
     </div>
+    <!-- MODALS -->
+    <div class="modalbg" id="modal">
+         <img class="modal" id="modalimage" src="placeholder.png">
+    </div>
 </body>
 <!-- SCRIPTS -->
+<!--MODAL SCRIPT -->
+<script>
+// get vars
+var modal = document.getElementById("modal");
+var mdlbtn = document.querySelectorAll(".commexampleimg")
+var modalimage =document.getElementById("modalimage")
+// open modal
+mdlbtn.forEach(function(image) {
+image.onclick = function(){
+  modal.style.display = "flex";
+  modalimage.src = this.src;
+};
+});
+// close modal
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script src="js/commsheetselection.js"></script>
 <script src="js/language.js"></script>
 </html>
