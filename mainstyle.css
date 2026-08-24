@@ -161,3 +161,6 @@ ul.comm li, span, span.gamefavcommheader {font-size: 28px;}
 div.commexample {width: 90%; height: 100%; display: flex; flex-direction: column; justify-content: center;}
 section.commexample {height: 100%; justify-content: space-between; align-items: center;}
 img.commexampleimg {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; height: 210px; cursor: pointer;}
+/* PORTFOLIO */
+div.portfolio {display: flex; flex-direction: column; align-items: center; justify-content: center;}
+img.portfolioimg {box-sizing: border-box; width: 90%; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; margin-bottom: 30px; justify-self: center; cursor: pointer;}

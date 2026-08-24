@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mainstyle.css">
+    </head>
+    <body>
+        <div class="pagediv">
+            <!-- SITE HEADER -->
+            <div class="siteheaderbig"></div>
+            <!-- MAIN SECTION -->
+            <section>
+                <!--NAVBAR -->
+                <!--GLOW SCRIPT -->
+                <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    document.querySelectorAll("a.nav").forEach(link => {
+                        const img = link.querySelector("img.nav");
+
+                        link.addEventListener("mouseenter", () => {
+                            img.src = "diamondglow.png";
+                        });
+
+                        link.addEventListener("mouseleave", () => {
+                            img.src = "diamond.png";
+                        });
+                    });
+                });
+                </script>
+            <div class="column" style="width: 300px; flex-shrink: 0; min-width: 300px;">
+                <!--HOME BUTTON -->
+                <a class="nav" href="index.html">
+                    <div class="nav" id="nav0">
+                            <h1 class="nav">Home</h1>
+                    </div>
+                </a>
+                <!--ME -->
+                <div class="nav" id="nav1">
+                    <h1 class="nav" data-i18n="navme"></h1>
+
+                    <a class="nav" href="aboutme.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navaboutme"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="fandoms.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navfandoms"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="tech.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navtech"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="wishlist.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navwishlist"></p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ART -->
+                <div class="nav" id="nav2">
+                    <h1 class="nav" data-i18n="navart"></h1>
+
+                    <a class="nav" href="portfolio.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navportfolio"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="ocs.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navocs"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="artposts.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navartposts"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="commissioninfo.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navcommissioninfo"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Patreon</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- SOCIAL -->
+                <div class="nav" id="nav3">
+                    <h1 class="nav">Social</h1>
+
+                    <a class="nav" href="https://www.instagram.com/jonny_inkdom" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Instagram</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank" href="https://www.twitch.tv/jonny_inkdom">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Twitch</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank" href="https://www.patreon.com/c/jonny_inkdom">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Patreon</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank" href="https://x.com/jonny_inkdom">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">X/Twitter</p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Youtube</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                <!-- MAIN COLUMN -->
+                <div class="column" style="width: 100%; margin-left: 20px;">
+                     <!-- TITLE -->
+                    <div class="nav" id="nav0"  style="margin-bottom: 20px; justify-self: flex-start;">
+                        <h1 class="nav" data-i18n="portfolioheader"></h1>
+                    </div>
+                    <img class="portfolioimg" src="placeholderbig.png">
+                </div>
+        </div>
+        <!-- MODALS -->
+        <div class="modalbg" id="modal">
+             <img class="modal" id="modalimage" src="placeholder.png">
+        </div>
+    </body>
+    <!--MODAL SCRIPT -->
+    <script>
+    // get vars
+    var modal = document.getElementById("modal");
+    var mdlbtn = document.querySelectorAll(".portfolioimg")
+    var modalimage =document.getElementById("modalimage")
+    // open modal
+    mdlbtn.forEach(function(image) {
+    image.onclick = function(){
+      modal.style.display = "flex";
+      modalimage.src = this.src;
+    };
+    });
+    // close modal
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    <script src="js/language.js"></script>
+</html>

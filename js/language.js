@@ -193,6 +193,9 @@ const translations = {
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+    //////////////////////////////////////////////////////////
+    //// PORTFOLIO
+    portfolioheader: "My Portfolio",
     },
 
   it: {
@@ -388,6 +391,9 @@ const translations = {
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+    //////////////////////////////////////////////////////////
+    //// PORTFOLIO
+    portfolioheader: "Il Mio Portfolio",
 
   }
 };
