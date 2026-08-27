@@ -7,6 +7,7 @@ commSelectors.forEach(selector => {
 
         commSelectors.forEach(box => {
             box.classList.remove("active");
+            box.querySelector("h1.commselect")?.classList.remove("active");
         });
 
         commboxes.forEach(box => {
@@ -14,6 +15,7 @@ commSelectors.forEach(selector => {
         });
 
         selector.classList.add("active");
+        selector.querySelector("h1.commselect")?.classList.add("active");
 
         document
             .getElementById("commbox-" + pricesheet)
