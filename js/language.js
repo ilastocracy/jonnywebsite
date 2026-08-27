@@ -10,7 +10,7 @@ const translations = {
     // ART
     navart: "Art",
     navportfolio: "Portfolio",
-    navocs: "My OC's",
+    navocs: "My OC's (WIP)",
     navartposts: "Art Posts",
     navcommissioninfo: "Commission Info",
     ////////////////////////////////////////////////////
@@ -209,7 +209,7 @@ const translations = {
     // ART
     navart: "Arte",
     navportfolio: "Portfolio",
-    navocs: "I miei OC",
+    navocs: "I miei OC (WIP)",
     navartposts: "Art Post",
     navcommissioninfo: "Info Commissioni",
     ////////////////////////////////////////////////////
