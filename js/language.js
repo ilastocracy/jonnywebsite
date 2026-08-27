@@ -187,7 +187,7 @@ const translations = {
     extrachartext: " +50% (per character)",
     drawnbg: "Drawn Background:",
     comicpage: "Comic Book Page:",
-    negotiable: " negotiable",
+    negotiable: " negotiable / depends",
     /////////////////////////////////////////////////////////
     //// ART Posts
     // TITLES
@@ -385,7 +385,7 @@ const translations = {
     extrachartext: " +50% (per personaggio)",
     drawnbg: "Sfondo disegnato:",
     comicpage: "Pagina di Fumetto:",
-    negotiable: " trattabile",
+    negotiable: " trattabile / dipende",
     /////////////////////////////////////////////////////////
     //// ART Posts
     // TITLES
