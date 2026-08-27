@@ -163,4 +163,4 @@ section.commexample {height: 100%; justify-content: space-between; align-items: 
 img.commexampleimg {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; height: 210px; cursor: pointer;}
 /* PORTFOLIO */
 div.portfolio {display: flex; flex-direction: column; align-items: center; justify-content: center;}
-img.portfolioimg {box-sizing: border-box; width: 90%; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; margin-bottom: 30px; justify-self: center; cursor: pointer;}
+img.portfolioimg {box-sizing: border-box; width: 100%; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; margin-bottom: 30px;}
