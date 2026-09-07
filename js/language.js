@@ -196,6 +196,9 @@ const translations = {
     //////////////////////////////////////////////////////////
     //// PORTFOLIO
     portfolioheader: "My Portfolio",
+    //////////////////////////////////////
+    //// 404
+    notfound: "Page not found",
     },
 
   it: {
@@ -394,7 +397,6 @@ const translations = {
     //////////////////////////////////////////////////////////
     //// PORTFOLIO
     portfolioheader: "Il Mio Portfolio",
-
   }
 };
 

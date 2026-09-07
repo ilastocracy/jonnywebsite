@@ -1,5 +1,6 @@
 @font-face { font-family: Gothic; src:url(Mirage\ final.ttf); font-style: normal;}
 @font-face { font-family: smallGothic; src:url(MorrisRomanBlack.ttf); font-style: normal;}
+@font-face { font-family: Eva; src:url(evafontregular.ttf); font-style: normal;}
 body {
     display: flex;
     justify-content: center;
@@ -119,7 +120,7 @@ h1.char {margin-top: 10px; margin-bottom: 0; text-align: center;}
 hr.char {width: 230px;}
 span.char {font-size: 25px;}
 p.char {font-size: 25px;}
-p.charcomm {font-size: 20px; margin-top: 3px; margin-bottom: 3px; text-align: center;}
+p.charcomm {font-size: 22px; margin-top: 3px; margin-bottom: 3px; text-align: center;}
 p.charcomm.bold {text-shadow: 0 0 7px white, 0 0 10px white;}
 model-viewer.char {width: 250px; height: 250px;}
 /* GAME */
@@ -164,3 +165,14 @@ img.commexampleimg {border: solid 10px transparent; border-image: url(metalborde
 /* PORTFOLIO */
 div.portfolio {display: flex; flex-direction: column; align-items: center; justify-content: center;}
 img.portfolioimg {box-sizing: border-box; width: 100%; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; margin-bottom: 30px;}
+/* 404 */
+body.page404 {
+display: flex;
+justify-content: center;
+background: url(background1red.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+zoom: 0.9;
+}
+marquee.page404 {font-size: 30px; margin: none;}
