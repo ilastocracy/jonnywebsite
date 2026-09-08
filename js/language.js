@@ -43,6 +43,8 @@ const translations = {
     upd6: "Added the Commission Info page!",
     date7: "17/08/2026",
     upd7: "Added Art Posts!",
+    date8: "09/09/2026",
+    upd8: "Added Herobrine",
     //MP3 PLAYER
     mp3player: "MP3 Player",
     //COMMENTS
@@ -242,6 +244,8 @@ const translations = {
     upd6: "Aggiunte Info Commissioni! >w<",
     date7: "17/08/2026",
     upd7: "Aggiunta la pagina degli Art Post!",
+    date8: "09/09/2026",
+    upd8: "Aggiunto Herobrine",
     //MP3
     mp3player: "Lettore MP3",
     //COMMENTS
