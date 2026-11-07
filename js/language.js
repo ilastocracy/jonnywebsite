@@ -54,7 +54,7 @@ const translations = {
     aboutmeheader: "ABOUT ME",
     //INTRO
     aboutmepresentation: "Introduction",
-    aboutmepres1: "Hi, I'm Jonny! I'm a digital illustrator specializing in Fantasy. I'm a 19-year old trans guy from Italy (Bari).",
+    aboutmepres1: "Hi, I'm Jonny! I'm a digital illustrator specializing in Fantasy. I'm a 20-year old trans guy from Italy (Bari).",
     aboutmepres2: "In this section of the website you'll find some info about me, both important and unimportant.",
     //INFO
     aboutmebaseinfo: "Basic Info",
@@ -258,7 +258,7 @@ const translations = {
     aboutmeheader: "CHI SONO",
     //INTRO
     aboutmepresentation: "Presentazione",
-    aboutmepres1: "Ciao, io sono Jonny! Sono un illustratore digitale e mi sto specializzando nel Fantasy. Ho 19 anni e sono un ragazzo trans barese.",
+    aboutmepres1: "Ciao, io sono Jonny! Sono un illustratore digitale e mi sto specializzando nel Fantasy. Ho 20 anni e sono un ragazzo trans barese.",
     aboutmepres2: "In questa sezione del sito troverai alcune informazioni, utili e non su di me..",
     //INFO
     aboutmebaseinfo: "Informazioni di base",
