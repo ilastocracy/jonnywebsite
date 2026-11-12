@@ -158,6 +158,7 @@ div.commbox.active {display: block;}
 img.commimg {height: 100%; margin-left: -35px;}
 span.comm {font-size: 45px;text-shadow: 0 0 10px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa}
 span.comm.tiny {font-size: 25px;}
+h1.commextras {text-align: center; margin: 5px;margin-left: -22px; font-size: 45px;}
 ul.comm li, span, span.gamefavcommheader {font-size: 28px;}
 div.commexample {width: 90%; height: 100%; display: flex; flex-direction: column; justify-content: center;}
 section.commexample {height: 100%; justify-content: space-between; align-items: center;}
