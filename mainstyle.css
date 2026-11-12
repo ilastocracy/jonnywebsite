@@ -45,8 +45,8 @@ div.column {}
 div.box {border: 10px solid transparent; background-color: rgba(0, 0, 0, 0.7); border-image: url(metalborder.png) 10 round; margin-right: 0; margin-top: 10px; }
 div.bigbox {border: 10px solid transparent;border-image: url(metalborder.png) 10 round;background: linear-gradient(to bottom, rgba(59, 6, 64, 0.7), rgba(198, 47, 212, 0.7));padding: 10px;margin-top: 20px;}
 /* TITLE */
-div.siteheadersmall {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; text-align: center; padding: 35px; margin: 0; margin-bottom: 15px; font-size: 40px ; height: 140px;}
-div.siteheaderbig {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; text-align: center; padding: 35px; margin: 0; font-size: 40px ; height: 140px; max-width: 1700px;}
+div.siteheadersmall {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; text-align: center; padding: 35px; margin: 0; margin-bottom: 15px; font-size: 40px ; height: 140px; background-image: url(images/bannerlong.jpg); background-size: 100%; background-position: center;}
+div.siteheaderbig {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; text-align: center; padding: 35px; margin: 0; font-size: 40px ; height: 140px; max-width: 1700px; background-image: url(images/bannerlong.jpg); background-position: center;}
 /* NAV */
 a.nav { text-decoration: none; color: inherit;}
 h1.nav {text-align: center; margin: 0; margin-bottom: 10px; margin-top: 15px;font-size: 50px; font-family: Gothic;}
