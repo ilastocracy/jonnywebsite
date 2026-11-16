@@ -48,7 +48,11 @@ const translations = {
     //MP3 PLAYER
     mp3player: "MP3 Player",
     //COMMENTS
-    commentstitle: "Comments",
+    commentloading: "Loading Comments...",
+    commenttitle: "Leave a Comment!",
+    commentname: "Name:",
+    commenttext: "Comment:",
+    commentsubmit: "Submit",
     ///////////////////////////////////////////////////
     ///// ABOUT ME
     aboutmeheader: "ABOUT ME",
@@ -226,7 +230,9 @@ const translations = {
     marqueecommissions: "LE COMNMISSIONI SONO CHIUSE-----LE COMNMISSIONI SONO CHIUSE-----LE COMNMISSIONI SONO CHIUSE-----LE COMNMISSIONI SONO CHIUSE-----LE COMNMISSIONI SONO CHIUSE-----LE COMNMISSIONI SONO CHIUSE-----LE COMNMISSIONI SONO CHIUSE (CONTROLLA INFO COMMISSIONI)-----",
     //WELCOME
     welcome: "Benvenut*",
-    welcomep: "Benvenut* sul mio sito web!",
+    welcomep1: "Benvenut* sul mio sito!",
+    welcomep2: "Sono Jonny_Inkdom, artista digitale fantasy e su questo sito potrai avere tutte le informazioni artistiche come listino prezzi per le commissioni, portfolio, e altro ancora!",
+    welcomep3: "Se invece vuoi semplicemente conoscermi meglio, nella sezione me potrai trovare pagine come chi sono o la lista dei miei fandom. Puoi anche cambiare lingua (inglese) o (italiano) e lasciare un commento se lo desideri.",
     //LAST POST
     lastpost: "Ultimo Post",
     lastpostp: "Questo é il mio post piú recente.",
@@ -253,7 +259,11 @@ const translations = {
     //MP3
     mp3player: "Lettore MP3",
     //COMMENTS
-    commentstitle: "Commenti",
+    commentloading: "Caricando i commenti...",
+    commenttitle: "Lascia un Commento!",
+    commentname: "Nome:",
+    commenttext: "Commento:",
+    commentsubmit: "Submit",
     ///////////////////////////////////////////////////
     ///// ABOUT ME
     aboutmeheader: "CHI SONO",

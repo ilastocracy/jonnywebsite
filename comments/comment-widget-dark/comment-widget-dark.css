@@ -83,6 +83,9 @@
 }
 
 /* Input section */
+.c-label {
+    font-size: 25px;
+}
 #c_inputDiv {
     margin-bottom: 15px;
     padding: 10px;
@@ -95,7 +98,7 @@
     margin-top: 3px;
     margin-bottom: 10px;
     padding: 5px;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     color: white;
     text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;
@@ -103,7 +106,8 @@
 
 .c-inputWrapper {
     display: block;
-    text-align: right;
+    text-align: left;
+    margin-bottom: 10px;
 }
 .c-input {
     padding: 4px;
@@ -120,12 +124,13 @@
 }
 #c_submitButton {
     display: block;
-    margin-left: auto;
-    margin-right: 0;
+    color: white;
 }
 #c_replyingText {
+    margin-top: 20px;
     color: white;
-    text-align: right;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* Comment section */
@@ -158,18 +163,21 @@
     margin: 0;
     margin-right: 10px;
     padding: 0;
-    text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;
 }
+
 .c-site {
     text-transform: uppercase;
     text-decoration: none;
     color: #B766FF;
+    display: none;
 }
 .c-site:hover {color: white;}
 .c-timestamp {
     float: right;
     opacity: 0%;
+    display: none
     ;
 }
 .c-text {
@@ -178,7 +186,6 @@
     margin-right: -10px;
     padding: 10px;
     font-size: 20px;
-    text-align: justify;
     color: white;
     background-color: black;
 }

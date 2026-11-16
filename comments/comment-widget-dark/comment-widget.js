@@ -51,10 +51,10 @@ const s_filteredWords = [ // Add words to filter by putting them in quotes and s
 ]
 
 // Text - Change what messages/text appear on the form and in the comments section (Mostly self explanatory)
-const s_widgetTitle = 'Leave a Comment!';
-const s_nameFieldLabel = 'Name';
+const s_widgetTitle = '';
+const s_nameFieldLabel = '';
 const s_websiteFieldLabel = 'Website (Optional)';
-const s_textFieldLabel = 'Comment';
+const s_textFieldLabel = '';
 const s_submitButtonLabel = 'Submit';
 const s_loadingText = 'Loading comments...';
 const s_noCommentsText = 'No comments yet!';
@@ -87,27 +87,27 @@ const v_mainHtml = `
     <div id="c_inputDiv">
         <form id="c_form" onsubmit="c_submitButton.disabled = true; v_submitted = true;" method="post" target="c_hiddenIframe" action="https://docs.google.com/forms/d/e/${s_formId}/formResponse"></form>
     </div>
-    <div id="c_container">${s_loadingText}</div>
+    <div id="c_container" data-i18n="commentloading">${s_loadingText}</div>
 `;
 const v_formHtml = `
-    <h2 id="c_widgetTitle">${s_widgetTitle}</h2>
+    <h2 id="c_widgetTitle" data-i18n="commenttitle">${s_widgetTitle}</h2>
 
     <div id="c_nameWrapper" class="c-inputWrapper">
-        <label class="c-label c-nameLabel" for="entry.${s_nameId}">${s_nameFieldLabel}</label>
+        <label class="c-label c-nameLabel" for="entry.${s_nameId}" data-i18n="commentname">${s_nameFieldLabel}</label>
         <input class="c-input c-nameInput" name="entry.${s_nameId}" id="entry.${s_nameId}" type="text" maxlength="${s_maxLengthName}" required>
     </div>
 
-    <div id="c_websiteWrapper" class="c-inputWrapper">
+    <div id="c_websiteWrapper" class="c-inputWrapper" style="display: none">
         <label class="c-label c-websiteLabel" for="entry.${s_websiteId}">${s_websiteFieldLabel}</label>
         <input class="c-input c-websiteInput" name="entry.${s_websiteId}" id="entry.${s_websiteId}" type="url" pattern="https://.*">
     </div>
 
     <div id="c_textWrapper" class="c-inputWrapper">
-        <label class="c-label c-textLabel" for="entry.${s_textId}">${s_textFieldLabel}</label>
+        <label class="c-label c-textLabel" for="entry.${s_textId}" data-i18n="commenttext">${s_textFieldLabel}</label>
         <textarea class="c-input c-textInput" name="entry.${s_textId}" id="entry.${s_textId}" rows="4" cols="50"  maxlength="${s_maxLength}" required></textarea>
     </div>
 
-    <input id="c_submitButton" name="c_submitButton" type="submit" value="${s_submitButtonLabel}" disabled>
+    <input id="c_submitButton" name="c_submitButton" type="submit" value="${s_submitButtonLabel}" disabled data-i18n="commentsubmit">
 `;
 
 // Insert main HTML to page

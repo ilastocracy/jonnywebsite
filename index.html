@@ -152,7 +152,11 @@
                 <h1 class="bigheader" data-i18n="welcome"></h1>
                 <div class="paragraph">
                     <img src="placeholderbig.png" style="height: 400px; width: 300px;">
-                    <p class="paragraph" data-i18n="welcomep"></p>
+                    <div class="mainpagep">
+                        <p class="paragraph" data-i18n="welcomep1"></p>
+                        <p class="paragraph" data-i18n="welcomep2"></p>
+                        <p class="paragraph" data-i18n="welcomep3"></p>
+                    </div>
                 </div>
             </div>
             <!--BOTTOMIMAGE -->
@@ -173,12 +177,12 @@
             <!-- LANGBUTTON -->
             <div class="langbox">
                 <div class="lang">
-                    <button class="lang" onclick="setLanguage('it')">
+                    <button class="lang" onclick="setLanguage('it'); location.reload();">
                         <img src="images/IT.png" style="height: 50px;">
                     </button>
                 </div>
                 <div class="lang">
-                    <button class="lang" onclick="setLanguage('en')">
+                    <button class="lang" onclick="setLanguage('en'); location.reload();">
                         <img src="images/UK.png" style="height: 50px;">
                     </button>
                 </div>
@@ -239,10 +243,10 @@
         </div>
     </body>
     <!--SCRIPTS -->
-    <!--LANG SCRIPT -->
-    <script src="js/language.js"></script>
     <!--MP3 SCRIPT -->
     <script src="js/mp3player.js"></script>
     <!--COMMENT SCRIPT -->
     <script async src="https://cusdis.com/js/cusdis.es.js"></script>
+    <!--LANG SCRIPT -->
+    <script src="js/language.js"></script>
 </html>
