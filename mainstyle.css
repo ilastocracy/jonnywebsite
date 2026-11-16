@@ -39,6 +39,8 @@ h1.pageheader {font-size: 50px; text-align: center;margin-top: 20px; margin-bott
 div.pagediv {width: 85%; margin-top: 45px; max-width: 1700px;}
 * { color: white; font-family: Gothic; scrollbar-color: #e543fa transparent;}
 h1 {text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
+a.link {font-size: 30px; margin-top: 2px; margin-bottom: 5px; margin-left: 10px; margin-right: 10px; color: #e543fa; text-decoration: underline; cursor: pointer;}
+a.link:hover {color: white; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
 /* COLUMN */
 h1.sectitle { margin: 0; margin-top: 5px; font-family: Gothic; text-align: center; font-size: 35px;}
 div.column {}
@@ -73,6 +75,8 @@ marquee {border: solid 10px transparent; border-image: url(metalborder.png) 10 r
 h1.bigheader { font-size: 45px;font-family: Gothic; margin-top: 10px; margin-bottom: 0;}
 .medheader {font-size: 40px; font-family: Gothic; margin-top: 10px; margin-bottom: 5px; margin-left: 10px; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
 div.paragraph {display: flex;}
+div.spanparagraph {margin-left: 10px; margin-bottom: 10px;}
+div.mainpagep
 p.paragraph {font-size: 30px; margin-top: 2px; margin-bottom: 5px; margin-left: 10px; margin-right: 10px;}
 li {font-size: 30px; margin-bottom: 10px; margin-right: 10px;}
 hr { margin-left: 15px; margin-right: 15px;}
