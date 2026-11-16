@@ -54,6 +54,14 @@ const translations = {
     upd7: "Added Art Posts!",
     date8: "09/09/2026",
     upd8: "Added Herobrine",
+    date9: "14/11/2026",
+    upd9: "Added comments!",
+    date10: "12/11/2026",
+    upd10: "added commission info graphics",
+    date11: "15/11/2026",
+    upd11: "looots of changes to the site (banners, navbar layout changes etc.)",
+    date12: "16/11/2026",
+    upd12: "Added welcome text, music fandom section and expanded the About Me page",
     //MP3 PLAYER
     mp3player: "MP3 Player",
     //COMMENTS
@@ -250,10 +258,10 @@ const translations = {
     welcomep23: "e",
     welcomep24: "il mio Portfolio",
     welcomep31: "Se invece vuoi semplicemente conoscermi meglio, nella sezione Me potrai trovare pagine come",
-    welcomep32: "chi sono",
+    welcomep32: "Chi sono",
     welcomep33: "o",
-    welcomep34: "o la lista dei miei fandom.",
-    welcomep35: "Puoi anche cambiare lingua (tra inglese e italiano) e lasciare un commento se lo desideri.",
+    welcomep34: "o la lista dei miei Fandom.",
+    welcomep35: "Puoi anche cambiare la lingua del sito (tra inglese e italiano) e lasciare un commento se lo desideri.",
     //LAST POST
     lastpost: "Ultimo Post",
     lastpostp: "Questo é il mio post piú recente.",
@@ -277,6 +285,14 @@ const translations = {
     upd7: "Aggiunta la pagina degli Art Post!",
     date8: "09/09/2026",
     upd8: "Aggiunto Herobrine",
+    date9: "14/11/2026",
+    upd9: "Aggiunti i commenti!",
+    date10: "12/11/2026",
+    upd10: "Aggiunte le grafiche per le info commissioni",
+    date11: "15/11/2026",
+    upd11: "Mooooooooolti cambiamenti al sito (banner, cambiamenti nel layout etc.)",
+    date12: "16/11/2026",
+    upd12: "Sistemata la sezione benvenuto, aggiunta la sezione dei fandom musicali ed espansa l'About Me",
     //MP3
     mp3player: "Lettore MP3",
     //COMMENTS
@@ -359,6 +375,10 @@ const translations = {
     hkpomcomm: "Carino ma non mi fa impazzire, la gente lo adora solo perché canonicamente il buco del culo (é vero, é canonico)",
     hkchibimarucomm: "É CARINISSIMO MADUUU É UN AMORE",
     hkretsukocomm: "Tranne per il nome del cazzo, la adoro.",
+    /// MUSIC
+    fandommusic: "Musica",
+    fandomrapit: "Rap Italiano ⤵︎",
+    fandomfavsong: "Canzoni Preferite:",
     /// GAMES
     fandomgames: "Videogiochi",
     fandomgamecomment: "Commento:",

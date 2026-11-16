@@ -57,7 +57,7 @@
 * {font-family: Gothic; font-size: 20px;}
 #c_widget {
     box-sizing: border-box;
-    max-height: 730px;
+    max-height: 650px;
     overflow: auto;
     font-size: 16px;
     color: white;
