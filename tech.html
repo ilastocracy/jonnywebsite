@@ -8,8 +8,6 @@
     <body>
         <!--PAGEDIV -->
         <div class="pagediv">
-            <!--SITEHEADER -->
-            <div class="siteheaderbig"></div>
             <!--MAIN SECTION -->
             <section>
                 <!--NAVBAR -->
@@ -30,14 +28,57 @@
                 });
                 </script>
             <div class="column" style="width: 300px; flex-shrink: 0; min-width: 300px;">
+                <!--IMAGEABOVE -->
+                <div style="display: flex; justify-content: center; margin-top: -30px;">
+                   <img src="Illustration3b.png" style="width: 200px; height: 200px; vertical-align: bottom;">
+                </div>
                 <!--HOME BUTTON -->
                 <a class="nav" href="index.html">
-                    <div class="nav" id="nav0">
+                    <div class="nav" id="nav0" style="margin-top: 0;">
                             <h1 class="nav">Home</h1>
                     </div>
                 </a>
+                <!-- ART -->
+                <div class="nav" id="nav1" style="margin-top: 20px;">
+                    <h1 class="nav" data-i18n="navart"></h1>
+
+                    <a class="nav" href="portfolio.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navportfolio"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="commissioninfo.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navcommissioninfo"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="ocs.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navocs"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="artposts.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navartposts"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Patreon</p>
+                        </div>
+                    </a>
+                </div>
                 <!--ME -->
-                <div class="nav" id="nav1">
+                <div class="nav" id="nav2">
                     <h1 class="nav" data-i18n="navme"></h1>
 
                     <a class="nav" href="aboutme.html">
@@ -65,46 +106,6 @@
                         <div class="navel">
                             <img class="nav" src="diamond.png">
                             <p class="nav" data-i18n="navwishlist"></p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- ART -->
-                <div class="nav" id="nav2">
-                    <h1 class="nav" data-i18n="navart"></h1>
-
-                    <a class="nav" href="portfolio.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navportfolio"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" href="ocs.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navocs"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" href="artposts.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navartposts"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" href="commissioninfo.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navcommissioninfo"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" target="_blank">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav">Patreon</p>
                         </div>
                     </a>
                 </div>
@@ -150,6 +151,9 @@
                 </div>
                     <!--MAIN AREA -->
                     <div class="column" style="margin-left: 20px; min-width: 1380px;">
+                        <!--TITLEBAR -->
+                        <img class="siteheadermedium" src="images/bannerlong.jpg"></img>
+                        <!--END TITLEBAR -->
                         <div class="bigbox">
                             <!--HARDWARE -->
                             <h1 class="pageheader">Hardware</h1>
@@ -195,9 +199,9 @@
                             </div>
                         </div>
                         <img src="ENDLESSCHAIN.png" style="width: 100%;">
-                        <div class="bigbox" style="margin-top: -20px;">
+                        <div class="bigbox" style="margin-top: -20px; display: flex; flex-direction: column; align-items: center;">
                             <h1 class="pageheader" data-i18n="techphoto"></h1>
-                            <img src="images/SETUPfull.jpg" style="max-width: 1340px; margin: 0;">
+                            <img src="images/SETUPfull.jpg" style="max-width: 90%; margin: 0; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; box-sizing: border-box;">
                         </div>
                     </div>
             </section>

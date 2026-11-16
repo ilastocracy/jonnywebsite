@@ -40,12 +40,13 @@ div.pagediv {width: 85%; margin-top: 45px; max-width: 1700px;}
 * { color: white; font-family: Gothic; scrollbar-color: #e543fa transparent;}
 h1 {text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
 /* COLUMN */
-h1.sectitle { margin: 0; margin-top: 5px; font-family: Gothic; text-align: center;}
+h1.sectitle { margin: 0; margin-top: 5px; font-family: Gothic; text-align: center; font-size: 35px;}
 div.column {}
 div.box {border: 10px solid transparent; background-color: rgba(0, 0, 0, 0.7); border-image: url(metalborder.png) 10 round; margin-right: 0; margin-top: 10px; }
 div.bigbox {border: 10px solid transparent;border-image: url(metalborder.png) 10 round;background: linear-gradient(to bottom, rgba(59, 6, 64, 0.7), rgba(198, 47, 212, 0.7));padding: 10px;margin-top: 20px;}
 /* TITLE */
 div.siteheadersmall {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; text-align: center; padding: 35px; margin: 0; margin-bottom: 15px; font-size: 40px ; height: 140px; background-image: url(images/bannerlong.jpg); background-size: 100%; background-position: center;}
+img.siteheadermedium {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; margin: 0; width: 100%; box-sizing: border-box;}
 div.siteheaderbig {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; text-align: center; padding: 35px; margin: 0; font-size: 40px ; height: 140px; max-width: 1700px; background-image: url(images/bannerlong.jpg); background-position: center;}
 /* NAV */
 a.nav { text-decoration: none; color: inherit;}
@@ -162,7 +163,7 @@ h1.commextras {text-align: center; margin: 5px;margin-left: -22px; font-size: 45
 ul.comm li, span, span.gamefavcommheader {font-size: 28px;}
 div.commexample {width: 90%; height: 100%; display: flex; flex-direction: column; justify-content: center;}
 section.commexample {height: 100%; justify-content: space-between; align-items: center;}
-img.commexampleimg {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; height: 210px; cursor: pointer;}
+img.commexampleimg {border: solid 10px transparent; border-image: url(metalborder.png) 10 round; height: 210px; overflow: hidden; cursor: pointer;}
 /* PORTFOLIO */
 div.portfolio {display: flex; flex-direction: column; align-items: center; justify-content: center;}
 img.portfolioimg {box-sizing: border-box; width: 100%; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; margin-bottom: 30px;}

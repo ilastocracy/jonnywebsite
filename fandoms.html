@@ -11,8 +11,6 @@
     </head>
     <body>
         <div class="pagediv">
-            <!--TITLEBAR -->
-            <div class="siteheaderbig"></div>
             <!--SECTION -->
             <section class="page">
                 <!--NAVBAR -->
@@ -33,14 +31,57 @@
                 });
                 </script>
             <div class="column" style="width: 300px; flex-shrink: 0; min-width: 300px;">
+                <!--IMAGEABOVE -->
+                <div style="display: flex; justify-content: center; margin-top: -30px;">
+                   <img src="Illustration3b.png" style="width: 200px; height: 200px; vertical-align: bottom;">
+                </div>
                 <!--HOME BUTTON -->
                 <a class="nav" href="index.html">
-                    <div class="nav" id="nav0">
+                    <div class="nav" id="nav0" style="margin-top: 0;">
                             <h1 class="nav">Home</h1>
                     </div>
                 </a>
-                <!--ME -->
+                <!-- ART -->
                 <div class="nav" id="nav1" style="margin-top: 20px;">
+                    <h1 class="nav" data-i18n="navart"></h1>
+
+                    <a class="nav" href="portfolio.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navportfolio"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="commissioninfo.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navcommissioninfo"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="ocs.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navocs"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" href="artposts.html">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav" data-i18n="navartposts"></p>
+                        </div>
+                    </a>
+
+                    <a class="nav" target="_blank">
+                        <div class="navel">
+                            <img class="nav" src="diamond.png">
+                            <p class="nav">Patreon</p>
+                        </div>
+                    </a>
+                </div>
+                <!--ME -->
+                <div class="nav" id="nav2">
                     <h1 class="nav" data-i18n="navme"></h1>
 
                     <a class="nav" href="aboutme.html">
@@ -68,46 +109,6 @@
                         <div class="navel">
                             <img class="nav" src="diamond.png">
                             <p class="nav" data-i18n="navwishlist"></p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- ART -->
-                <div class="nav" id="nav2">
-                    <h1 class="nav" data-i18n="navart"></h1>
-
-                    <a class="nav" href="portfolio.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navportfolio"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" href="ocs.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navocs"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" href="artposts.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navartposts"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" href="commissioninfo.html">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav" data-i18n="navcommissioninfo"></p>
-                        </div>
-                    </a>
-
-                    <a class="nav" target="_blank">
-                        <div class="navel">
-                            <img class="nav" src="diamond.png">
-                            <p class="nav">Patreon</p>
                         </div>
                     </a>
                 </div>
@@ -153,6 +154,9 @@
         </div>
         <!--MAIN AREA-->
         <div class="column" style="margin-left: 20px; width: 1380px;">
+        <!--TITLEBAR -->
+        <img class="siteheadermedium" src="images/bannerlong.jpg"></img>
+        <!--END TITLEBAR -->
             <!--PAGE HEADER -->
             <div class="nav" id="nav0">
                 <h1 class="nav" data-i18n="fandomheader"></h1>
@@ -493,459 +497,8 @@
             </div>
             <img src="ENDLESSCHAIN.png" style="width: 1380px; margin-bottom: -30px;">
 
+            <!-- VIDEOGAME SECTION UNDER MAINTENANCE, FIND IT AT /coldstorage/videogames.txt -->
 
-
-            <!--VIDEOGAMES -->
-            <div class="bigbox">
-                <!--TITLE -->
-                <h1 class="pageheader" data-i18n="fandomgames"></h1>
-                <!--BOX -->
-                <div style="display: flex; justify-content: space-between;">
-                    <!--GAME SELECTOR -->
-                    <div style="margin-top: 10px; width: 420px;">
-                        <div class="boxnb active" data-game="minecraft">
-                            <p class="gameselect">Minecraft</p>
-                        </div>
-                        <div class="boxnb" data-game="slime-rancher">
-                            <p class="gameselect">Slime Rancher</p>
-                        </div>
-                        <div class="boxnb" data-game="slime-rancher-2">
-                            <p class="gameselect">Slime Rancher 2</p>
-                        </div>
-                        <div class="boxnb" data-game="stardew-valley">
-                            <p class="gameselect">Stardew Valley</p>
-                        </div>
-                        <div class="boxnb" data-game="sims-4">
-                            <p class="gameselect">The Sims 4</p>
-                        </div>
-                        <div class="boxnb" data-game="teddys-haven">
-                            <p class="gameselect">Teddy's Haven</p>
-                        </div>
-                        <div class="boxnb" data-game="genshin-impact">
-                            <p class="gameselect">Genshin Impact</p>
-                        </div>
-                        <div class="boxnb" data-game="house-flipper">
-                            <p class="gameselect">House Flipper</p>
-                        </div>
-                        <div class="boxnb" data-game="good-pizza">
-                            <p class="gameselect">Good Pizza Great Pizza</p>
-                        </div>
-                    </div>
-                    <!-- GAME BOXES -->
-                    <div class="box" style="width: 100%; display: flex; align-items: center;">
-                        <!-- SLIME RANCHER 1 -->
-                        <div id="gamebox-slime-rancher" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/SR1icon.png">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Slime Rancher</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomsr1comm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <span class="medgameheader" data-i18n="fandomgamefavslime"></span><span class="medgameheaderwhite" data-i18n="fandomcrystalslime"></span>
-                                    <div class="gamefav">
-                                        <img class="gamefav" src="placeholderbig.png">
-                                        <div style="margin-top: 5px; width: 100%;">
-                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm">Crystal Slime</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- SLIME RANCHER 2 -->
-                        <div id="gamebox-slime-rancher-2" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/SR2.png">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Slime Rancher 2</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomsr2comm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <span class="medgameheader" data-i18n="fandomgamefavslime"></span><span class="medgameheaderwhite" data-i18n="fandombattyslime"></span>
-                                    <div class="gamefav">
-                                        <img class="gamefav" src="placeholderbig.png">
-                                        <div style="margin-top: 5px;">
-                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm" data-i18n="fandombattyslimecomm"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- STARDEW VALLEY -->
-                        <div id="gamebox-stardew-valley" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/stardewicon.jpg">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Stardew Valley</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomstardewcomm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <span class="medgameheader" data-i18n="fandomgamefavchar"></span><span class="medgameheaderwhite">Abigail</span>
-                                    <div class="gamefav">
-                                        <img class="gamefav" src="placeholderbig.png">
-                                        <div style="margin-top: 5px;">
-                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm" data-i18n="fandomabigailcomm"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- MINECRAFT -->
-                        <div id="gamebox-minecraft" class="gamebox active">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/minecraftlogo.png">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <div class="gameimg" style="margin-top: 20px;">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Minecraft</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomminecraftcomm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <div>
-                                        <div style="margin-top: 5px; display: flex; justify-content: space-around;">
-                                            <!-- AMETISTA -->
-                                            <div class="char">
-                                                <h1 class="char" data-i18n="fandomgamefavblock"></h1>
-                                                <hr class="char">
-                                                <model-viewer class="char" auto-rotate rotation-per-second="80deg" src="fandoms/games/Amethyst.glb"></model-viewer>
-                                                <hr class="char">
-                                                <h1 class="char" data-i18n="fandomamethyst"></h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomamethystcomm"></p>
-                                            </div>
-                                            <!-- AXOLOTL -->
-                                            <div class="char">
-                                                <h1 class="char" data-i18n="fandomgamefavmob"></h1>
-                                                <hr class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char">
-                                                <h1 class="char">Axolotl</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomaxolotlcomm"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- THE SIMS 4 -->
-                        <div id="gamebox-sims-4" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/sims4logo.jpg">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <div class="gameimg" style="margin-top: 20px;">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">The Sims 4</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomsimscomm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <div>
-                                        <div style="margin-top: 5px; display: flex; justify-content: space-around; gap: 30px; padding-bottom: 10px;width: 675px;overflow-x: scroll;">
-                                            <!-- CHAR 1 -->
-                                            <div class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char" style="width: 100%; margin-top: 0; padding-top: 0;">
-                                                <h1 class="char">Jonny</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomsim1comm"></p>
-                                            </div>
-                                            <!-- CHAR 1 -->
-                                            <div class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char" style="width: 100%; margin-top: 0; padding-top: 0;">
-                                                <h1 class="char">Ilaria</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomsim2comm"></p>
-                                            </div>
-                                            <!-- CHAR 1 -->
-                                            <div class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char" style="width: 100%; margin-top: 0; padding-top: 0;">
-                                                <h1 class="char">Vale</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomsim3comm"></p>
-                                            </div>
-                                            <!-- CHAR 1 -->
-                                            <div class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char" style="width: 100%; margin-top: 0; padding-top: 0;">
-                                                <h1 class="char">kitemmurt</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomsim4comm"></p>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- TEDDY'S HAVEN -->
-                        <div id="gamebox-teddys-haven" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/teddyshavenlogo.jpg">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <div class="gameimg" style="margin-top: 20px;">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Teddy's Haven</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomthcomm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <div>
-                                        <div style="margin-top: 5px; display: flex; justify-content: space-around;">
-                                            <!-- MOONDRELL -->
-                                            <div class="char">
-                                                <h1 class="char" data-i18n="fandomgamefavitem"></h1>
-                                                <hr class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char">
-                                                <h1 class="char">Moondrell</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandommoondrellcomm"></p>
-                                            </div>
-                                            <!-- KOKORAPTOR -->
-                                            <div class="char">
-                                                <h1 class="char" data-i18n="fandomgamefavanimal"></h1>
-                                                <hr class="char">
-                                                <img class="char" src="placeholder.png">
-                                                <hr class="char">
-                                                <h1 class="char">Kokoraptor</h1>
-                                                <hr class="char">
-                                                <p class="charcomm" data-i18n="fandomkokocomm"></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- GENSHIN IMPACT -->
-                        <div id="gamebox-genshin-impact" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/genshinlogo.jpg">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Genshin Impact</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomgenshincomm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <span class="medgameheader" data-i18n="fandomgamefavchar"></span><span class="medgameheaderwhite">Kirara</span>
-                                    <div class="gamefav">
-                                        <img class="gamefav" src="placeholderbig.png">
-                                        <div style="margin-top: 5px;">
-                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm" data-i18n="fandomkiraracomm"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- HOUSE FLIPPER -->
-                        <div id="gamebox-house-flipper" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/houseflipperlogo.png">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">House Flipper</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandomhouseflippercomm"></span>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- GOOD PIZZA GREAT PIZZA -->
-                        <div id="gamebox-good-pizza" class="gamebox">
-                            <!-- COLUMN1 -->
-                            <div class="column" style="margin: 10px;display: flex; flex-direction: column; justify-content: flex-start;width: 300px;">
-                                <img class="gameimg" src="fandoms/games/goodpizzalogo.jpg">
-                                <h1 class="medheader" style="text-align: center;" data-i18n="fandomscreenshot"></h1>
-                                <div class="gameimg">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                    <img class="gameimgtiny" src="placeholder.png">
-                                </div>
-                                <h1 class="medheader" style="font-size: 25px; text-align: center;" data-i18n="fandomclick2"></h1>
-                            </div>
-                            <!-- COLUMN SEPARATOR -->
-                            <div class="vr"></div>
-                            <!-- COLUMN2 -->
-                            <div class="column" style="margin: 10px; margin-left: 0; display: flex; flex-direction: column; justify-content: space-between ;width: 100%;">
-                                <!--GAME TITLE -->
-                                <h1 class="gameheader">Good Pizza Great Pizza</h1>
-                                <hr>
-                                <!-- GAME COMMENT -->
-                                <div style="height: 150px; margin-left: 10px; margin-top: 5px;">
-                                    <span class="medgameheader" data-i18n="fandomgamecomment"></span><span class="gamecomment" data-i18n="fandompizzacomm"></span>
-                                </div>
-                                <hr>
-                                <!-- GAME FAV -->
-                                <div style="margin-left: 10px;">
-                                    <span class="medgameheader" data-i18n="fandomgamefavchar"></span><span class="medgameheaderwhite" data-i18n="fandomhomeless"></span>
-                                    <div class="gamefav">
-                                        <img class="gamefav" src="placeholderbig.png">
-                                        <div style="margin-top: 5px;">
-                                            <span class="gamefavcommheader" data-i18n="fandomgamecomment"> </span><span class="gamefavcomm" data-i18n="fandomhomelesscomm"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-            <img src="ENDLESSCHAIN.png" style="width: 1380px; margin-bottom: -30px;">
-        </div>
         <script src="js/charcontent.js"></script>
         <!-- MODALS -->
         <div class="modalbg" id="modal">
