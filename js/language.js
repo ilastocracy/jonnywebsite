@@ -73,6 +73,7 @@ const translations = {
     ///////////////////////////////////////////////////
     ///// ABOUT ME
     aboutmeheader: "ABOUT ME",
+    aboutmetab: "About Me",
     //INTRO
     aboutmepresentation: "Introduction",
     aboutmepres1: "Hi, I'm Jonny! I'm a digital illustrator specializing in Fantasy. I'm a 20-year old trans guy from Italy (Bari).",
@@ -222,9 +223,11 @@ const translations = {
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+    artpost1: "I needed to make a price sheet for an upcoming event and I created this OC as a result. To This day it's the illustration I use for reference in my price sheets, even on this site!",
+    artpost2: "Do you recognize this character? She comes from the music video for Klea's Tic Toc, a song that is at this point almost 25 years old. This song was completely stuck in my head and I couldn't abstain from making a drawing out of it.",
     //////////////////////////////////////////////////////////
     //// PORTFOLIO
-    portfolioheader: "My Portfolio",
+    portfolioheader: "My Portfolio (Click to Open the images)",
     //////////////////////////////////////
     //// 404
     notfound: "Page not found",
@@ -304,6 +307,7 @@ const translations = {
     ///////////////////////////////////////////////////
     ///// ABOUT ME
     aboutmeheader: "CHI SONO",
+    aboutmetab: "Chi Sono",
     //INTRO
     aboutmepresentation: "Presentazione",
     aboutmepres1: "Ciao, io sono Jonny! Sono un illustratore digitale e mi sto specializzando nel Fantasy. Ho 20 anni e sono un ragazzo trans barese.",
@@ -456,9 +460,11 @@ const translations = {
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+    artpost1: "Avevo bisogno di creare il mio listino prezzi per un evento e inventai questa OC. Tutt'oggi è l'illustrazione che uso come reference nei listini prezzi, la potete anche trovare sul sito!",
+    artpost2: "Riconoscete questo personaggio? Viene dal video musicale di Tic Toc by Klea, vecchissima canzone uscita quasi 25 anni fà. Avevo questa canzone in testa h24 e non potevo non farci un disegno.",
     //////////////////////////////////////////////////////////
     //// PORTFOLIO
-    portfolioheader: "Il Mio Portfolio",
+    portfolioheader: "Il Mio Portfolio (Clicca per aprire le immagini)",
   }
 };
 
