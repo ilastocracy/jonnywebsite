@@ -62,6 +62,8 @@ const translations = {
     upd11: "looots of changes to the site (banners, navbar layout changes etc.)",
     date12: "16/11/2026",
     upd12: "Added welcome text, music fandom section and expanded the About Me page",
+    date13: "17/11/2026",
+    upd13: "New Art Posts! Check em out!",
     //MP3 PLAYER
     mp3player: "MP3 Player",
     //COMMENTS
@@ -296,6 +298,8 @@ const translations = {
     upd11: "Mooooooooolti cambiamenti al sito (banner, cambiamenti nel layout etc.)",
     date12: "16/11/2026",
     upd12: "Sistemata la sezione benvenuto, aggiunta la sezione dei fandom musicali ed espansa l'About Me",
+    date13: "17/11/2026",
+    upd13: "Nuovi Art Post!",
     //MP3
     mp3player: "Lettore MP3",
     //COMMENTS
