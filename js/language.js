@@ -33,7 +33,6 @@ const translations = {
     welcomep35: "You may also switch the site's language between Italian and English, or leave a comment if you so wish.",
     //LAST POST
     lastpost: "Latest Post",
-    lastpostp: "This is the latest post.",
     //CREDITS
     credits: "coded by Ilaria, with love 🩷",
     //UPDATES
@@ -225,7 +224,9 @@ const translations = {
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+    artpost1title: "January 2026",
     artpost1: "I needed to make a price sheet for an upcoming event and I created this OC as a result. To This day it's the illustration I use for reference in my price sheets, even on this site!",
+    artpost2title: "December 2025",
     artpost2: "Do you recognize this character? She comes from the music video for Klea's Tic Toc, a song that is at this point almost 25 years old. This song was completely stuck in my head and I couldn't abstain from making a drawing out of it.",
     //////////////////////////////////////////////////////////
     //// PORTFOLIO
@@ -269,7 +270,6 @@ const translations = {
     welcomep35: "Puoi anche cambiare la lingua del sito (tra inglese e italiano) e lasciare un commento se lo desideri.",
     //LAST POST
     lastpost: "Ultimo Post",
-    lastpostp: "Questo é il mio post piú recente.",
     //CREDITS
     credits: "sito sviluppato da Ilaria, con amore 🩷",
     //UPDATES
@@ -464,7 +464,9 @@ const translations = {
     // TITLES
     latestpost: "Post Piú Recente",
     allposts: "Tutti i Post",
+    artpost1title: "Gennaio 2026",
     artpost1: "Avevo bisogno di creare il mio listino prezzi per un evento e inventai questa OC. Tutt'oggi è l'illustrazione che uso come reference nei listini prezzi, la potete anche trovare sul sito!",
+    artpost2title: "Dicembre 2025",
     artpost2: "Riconoscete questo personaggio? Viene dal video musicale di Tic Toc by Klea, vecchissima canzone uscita quasi 25 anni fà. Avevo questa canzone in testa h24 e non potevo non farci un disegno.",
     //////////////////////////////////////////////////////////
     //// PORTFOLIO

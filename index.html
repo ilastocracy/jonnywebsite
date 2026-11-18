@@ -166,12 +166,12 @@
             <!--BOTTOMIMAGE -->
             <img src="ENDLESSCHAIN.png" style="max-width: 1150px;">
             <!--ARTPOST -->
-             <div class="box" style="margin-right: 10px; margin-top: -20px;">
+            <div class="box" style="margin-right: 10px; margin-top: -20px;">
                 <div class="artpost">
-                    <img src="placeholderbig.png" style="width: 350px;">
+                    <img src="artposts/artpost1.jpg" class="artpostimg">
                     <div class="artpostp">
-                        <h1 class="artpost" data-i18n="lastpost"></h1>
-                        <p class="artpost" data-i18n="lastpostp"></p>
+                        <h1 class="artpost" data-i18n="artpost1title"></h1>
+                        <p class="artpost" data-i18n="artpost1"></p>
                     </div>
                 </div>
             </div>
@@ -255,6 +255,10 @@
             <p style="font-size: 25px;" data-i18n="credits"></p>
         </section>
         </div>
+        <!-- MODALS -->
+        <div class="modalbg" id="modal">
+             <img class="modal" id="modalimage" src="placeholder.png">
+        </div>
     </body>
     <!--SCRIPTS -->
     <!--MP3 SCRIPT -->
@@ -263,4 +267,24 @@
     <script async src="https://cusdis.com/js/cusdis.es.js"></script>
     <!--LANG SCRIPT -->
     <script src="js/language.js"></script>
+    <!--MODAL SCRIPT -->
+    <script>
+    // get vars
+    var modal = document.getElementById("modal");
+    var mdlbtn = document.querySelectorAll(".artpostimg")
+    var modalimage =document.getElementById("modalimage")
+    // open modal
+    mdlbtn.forEach(function(image) {
+    image.onclick = function(){
+      modal.style.display = "flex";
+      modalimage.src = this.src;
+    };
+    });
+    // close modal
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
 </html>
