@@ -201,7 +201,7 @@ const translations = {
     techdraw: "Huion Kamvas 20 (19´´) + Huion Digital Pen",
     // SOFTWARE
     techsoft: "Software",
-    techsoftdraw: "Drawing/Image Editing Programs",
+    techsoftdraw: "Drawing Software",
     techsoftstream: "Streaming Software",
     techsoftspud: "Virtual Arm/Tablet: Spud Arm/Spud Tablet",
     //SETUP PHOTO
@@ -441,7 +441,7 @@ const translations = {
     techdraw: "Huion Kamvas 20 (19´´) + Penna Digitale Huion",
     // SOFTWARE
     techsoft: "Programmi",
-    techsoftdraw: "Programmi di Disegno/Editing Immagini",
+    techsoftdraw: "Programmi di Disegno",
     techsoftstream: "Programmi per Streaming",
     techsoftspud: "Braccio/Tablet Virtuale: Spud Arm/Spud Tablet",
     //SETUP PHOTO

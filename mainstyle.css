@@ -66,7 +66,9 @@ p.nav:hover { text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0
 *.lang {cursor: pointer;}
 *.langbox {cursor: pointer;}
 div.lang {display: flex; justify-content: space-between; border: solid 10px transparent; border-image: url(metalborder.png) 10 round; cursor: pointer;}
-div.langbox {display: flex; justify-content: space-around; margin-top: 0; margin-bottom: 20px;}
+div.langbox {display: flex; justify-content: space-between; margin-top: 0; margin-bottom: 20px;}
+div.langbox.otherpages {margin-top: 20px;}
+span.lang {font-size: 40px; align-self: center; text-shadow: 0 0 7px white, 0 0 9px #e543fa, 0 0 40px #e543fa, 0 0 80px #e543fa, 0 0 150px #e543fa, 1px 0 2px #e543fa;}
 button.lang {text-decoration: none; color: inherit; display: flex; border: none; background-color: transparent;}
 p.lang {font-size: 25px; margin-top: 0; margin-bottom: 0;}
 /* MARQUEE */

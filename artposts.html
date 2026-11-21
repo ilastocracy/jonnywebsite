@@ -37,6 +37,20 @@
                             <h1 class="nav">Home</h1>
                     </div>
                 </a>
+                <!-- LANGBUTTON -->
+                <div class="langbox otherpages">
+                    <div class="lang">
+                        <button class="lang" onclick="setLanguage('it'); location.reload();">
+                            <img src="images/IT.png" style="height: 50px;">
+                        </button>
+                    </div>
+                    <span class="lang">⇄</span>
+                    <div class="lang">
+                        <button class="lang" onclick="setLanguage('en'); location.reload();">
+                            <img src="images/UK.png" style="height: 50px;">
+                        </button>
+                    </div>
+                </div>
                 <!-- ART -->
                 <div class="nav" id="nav1" style="margin-top: 20px;">
                     <h1 class="nav" data-i18n="navart"></h1>
@@ -153,9 +167,7 @@
                     <img class="siteheadermedium" src="images/bannerlong.jpg"></img>
                     <!--END TITLEBAR -->
                     <!-- LATEST POST -->
-                    <hr style="margin-bottom: 20px;">
                     <h1 class="bigheader" data-i18n="latestpost" style="font-size: 80px; margin-top: 30px;text-align: center;"></h1>
-                    <hr style="margin-bottom: 20px;">
                     <div class="box" style="display: flex;">
                         <img class="artpostimg" src="artposts/artpost1.jpg">
                         <div class="column">
@@ -163,10 +175,8 @@
                             <p class="artpostbig" data-i18n="artpost1"></p>
                         </div>
                     </div>
-                    <hr style="margin-bottom: 20px;">
                     <!-- ALL POSTS -->
                     <h1 class="bigheader" data-i18n="allposts" style="font-size: 80px; margin-top: 30px;text-align: center;"></h1>
-                    <hr>
                     <!-- ROW 1 -->
                     <section class="artpost">
                         <!--COLUMN 1 -->
